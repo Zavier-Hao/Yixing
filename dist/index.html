@@ -7,24 +7,131 @@
 #cards{position:absolute;inset:0;z-index:1;isolation:isolate}
 /* A restrained pool of light stays beneath the artwork and never captures input. */
 .hero{isolation:isolate}
-.curtain-glow{position:absolute;left:0;top:0;width:560px;height:560px;margin:-280px 0 0 -280px;z-index:-1;pointer-events:none;border-radius:50%;background:radial-gradient(circle,rgba(59,133,115,.15) 0%,rgba(35,103,91,.08) 35%,transparent 70%);opacity:0;transition:opacity .7s ease;will-change:transform}
-.hero.is-pointer-active .curtain-glow{opacity:1}
+.curtain-glow{position:fixed;left:0;top:0;width:560px;height:560px;margin:-280px 0 0 -280px;z-index:10;mix-blend-mode:screen;pointer-events:none;border-radius:50%;background:radial-gradient(circle,rgba(59,133,115,.15) 0%,rgba(35,103,91,.08) 35%,transparent 70%);opacity:0;transition:opacity .7s ease;will-change:transform}
+html.is-pointer-active .curtain-glow{opacity:1}
 @media(pointer:coarse){.curtain-glow{display:none}}
-</style><nav><div class="logo">✧ 弈星</div><div><a href="#about">项目概览</a><a href="#experience">陪伴体验</a><a href="#vision">设计愿景 ↗</a></div></nav><main><section class="hero"><div class="curtain-glow" aria-hidden="true"></div><div class="eyebrow">YIXING · YOUR COMPANION IN THE CONVERGENCE</div><h1>每一步，都有<em>“星”</em>回应</h1><p class="sub">懂棋局，也懂你。你的云顶之弈 AI 伴侣。</p><div class="hero-actions"><a class="button" href="#experience">探索弈星 ↓</a></div><div class="scene"><div class="orbit"></div><div class="orbit two"></div><div class="core"></div><div id="cards"></div><img class="figure left" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_27.jpg" alt="阿狸角色概念素材"><img class="figure right" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yasuo_0.jpg" alt="亚索角色概念素材"><img class="figure center" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lulu_0.jpg" alt="璐璐中心角色概念素材"><div class="scene-note">移动鼠标 · 感受棋局的涟漪</div></div><div class="scroll">SCROLL TO DISCOVER ─────</div></section><section class="section" id="about"><div class="eyebrow">01 / THE IDEA</div><h2>云顶很大，你不必独自摸索。</h2><p>从第一次刷新商店，到决定胜负的最后一轮，弈星将战局分析与有温度的交互融为一体。让复杂决策更轻松，让每一场对局都有人陪你走过。</p><div class="features"><article class="feature"><b>01 · STRATEGY</b><h3>关键一手，心中有数</h3><p>围绕实时局势提供策略建议，帮助新手理解棋局，也让进阶玩家更从容地决策。</p></article><article class="feature"><b>02 · COMPANIONSHIP</b><h3>有人回应每一种心情</h3><p>用语音连接棋盘之外的情绪。顺风时一起庆祝，逆风时一起寻找转机。</p></article><article class="feature"><b>03 · REFLECTION</b><h3>每次落幕，都有收获</h3><p>通过局后复盘回看关键选择，让下一局的你，比上一局多一点笃定。</p></article></div></section><section class="section" id="experience"><div class="eyebrow">02 / EXPERIENCE CONCEPT</div><div class="demo"><div><h2>把选择交给你，<br>把陪伴留在身边。</h2><p>点击下方场景，预览弈星的陪伴方式。以下为产品概念演示文案。</p><button id="switch">切换陪伴场景 ↗</button></div><div class="panel"><span class="chip" id="state">局内 · 策略建议</span><p id="reply">“先别急着刷新。一起看看当前阵容与经济，再决定这一轮的节奏。”</p><small style="color:#6c9298">✧ 弈星在线 · 概念交互演示</small></div></div></section><section class="section" id="vision"><div class="eyebrow">03 / OUR VISION</div><h2>从一场好棋，到一段好时光。</h2><p>我们希望 AI 不只给出答案，更能理解玩家的节奏。在策略与情绪之间，创造更轻松、更有陪伴感的沉浸式游戏体验。</p></section></main><footer><span>✧ 弈星 / AI COMPANION · PORTFOLIO</span><span>非官方作品集概念 · 角色图像 © Riot Games</span></footer><script>
-const names=['Ahri','Ashe','Jinx','Lux','Yasuo','Lulu','Garen','Sona'];const cards=[];for(let s=0;s<2;s++)for(let i=0;i<7;i++){const el=document.createElement('div');el.className='card';const name=names[(i+s*3)%names.length];el.innerHTML=`<img src="https://ddragon.leagueoflegends.com/cdn/img/champion/loading/${name}_0.jpg" alt="${name} 英雄卡牌"><span>✦ ${name.toUpperCase()}</span>`;document.querySelector('#cards').append(el);cards.push({el,s,i});}let mouse={x:-999,y:-999};document.querySelector('.scene').addEventListener('pointermove',e=>{let r=e.currentTarget.getBoundingClientRect();mouse={x:(e.clientX-r.left)*1100/r.width,y:(e.clientY-r.top)*560/r.height}});document.querySelector('.scene').addEventListener('pointerleave',()=>mouse={x:-999,y:-999});const hero=document.querySelector('.hero');
-const glow=document.querySelector('.curtain-glow');
+
+.strategy-section{position:relative;padding:90px 5% 100px;overflow:hidden;background:radial-gradient(ellipse at 75% 45%,#26345555,transparent 65%)}
+.strategy-heading{display:flex;justify-content:space-between;align-items:center;margin-bottom:48px}.function-tag{display:inline-flex;align-items:center;color:#f0d79d;font-size:clamp(18px,1.5vw,25px);font-weight:600;letter-spacing:2px;line-height:1.5}.strategy-layout{display:grid;grid-template-columns:minmax(260px,.7fr) minmax(0,1.8fr);gap:5%;align-items:center}.strategy-copy h2{font-size:clamp(32px,3.1vw,53px);line-height:1.45;margin:0 0 22px;letter-spacing:2px}.strategy-copy h2 em{font-style:normal;color:#dfc389}.strategy-copy .strategy-lead{color:#dfd7c3;font-size:17px;line-height:1.7}.strategy-copy p{font-size:12px;line-height:1.95}.decision-context{border-left:2px solid #bda16a;padding-left:18px;margin:25px 0}.decision-context>span{font-size:10px;color:#bda16a;letter-spacing:2px}.decision-context h3{font-size:15px;font-weight:400;line-height:1.7;margin:10px 0}.strategy-steps{padding:0;list-style:none;display:grid;gap:16px;margin-top:30px}.strategy-steps li{display:flex;gap:15px;align-items:center}.strategy-steps b{font-family:serif;color:#bda16a;font-size:18px}.strategy-steps span{font-size:12px;color:#ddd2bd}.strategy-steps small{display:block;font-size:10px;color:#79989c;margin-top:5px}.strategy-showcase{min-width:0;perspective:1300px}.demo-topline,.demo-bottomline{display:flex;align-items:center;justify-content:space-between;gap:16px;font-size:14px;letter-spacing:1.4px;color:#bdccd0;padding:20px 0}.demo-topline i{display:inline-block;background:#83c9b5;width:7px;height:7px;border-radius:50%;box-shadow:0 0 12px #83c9b5;margin-right:10px;animation:signal 2s infinite}.battle-demo{position:relative;container-type:inline-size;border:1px solid #b6a17466;border-radius:9px;overflow:hidden;box-shadow:0 30px 80px #0007,0 0 50px #7868be15;transform:rotateY(-2deg);transition:transform .7s,box-shadow .7s}.battle-demo:hover{transform:rotateY(0);box-shadow:0 30px 80px #0007,0 0 50px #7868be38}.battle-image{display:block;width:100%;height:auto}.live-dialogue{position:absolute;left:57.4%;top:37.35%;width:27.9%;height:16.1%;border:2px solid #ac83f3;border-radius:2.1cqw;background:linear-gradient(120deg,#28214d,#342563);padding:.55cqw 1.15cqw;color:#f4edff;box-shadow:0 0 22px #9271dc66;z-index:3}.voice-line{display:flex;align-items:center;height:2cqw;gap:.55cqw;color:#c4a2ff}.voice-icon{font-size:2cqw}.voice-wave{height:22px;display:flex;align-items:center;gap:2px;transform:scale(.65);transform-origin:left center;width:7cqw}.voice-wave i{width:2px;height:var(--height);background:#ba97f4;border-radius:3px;transform:scaleY(.2)}.speech-state{font-size:.9cqw;letter-spacing:.1cqw;margin-left:auto}.stream-copy{font-size:1.12cqw;line-height:1.48;margin-top:.3cqw;text-align:left}.stream-copy:after{content:'';display:inline-block;width:1px;height:1em;background:#d4bfff;vertical-align:middle;animation:signal .7s infinite}.battle-demo[data-phase="done"] .stream-copy:after{display:none}.battle-demo[data-phase="speaking"] .voice-wave i{animation:voice .55s calc(var(--i)*-.08s) ease-in-out infinite alternate}.mascot-cover{position:absolute;left:49.65%;top:36.65%;width:8.6%;height:14.4%;background:transparent;z-index:4}.strategy-mascot{display:block;width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 0 9px #d0b3ff99);animation:mascot-breathe 3s ease-in-out infinite}.battle-demo[data-phase="speaking"] .strategy-mascot{animation:mascot-talk 1.2s ease-in-out infinite}.scan-sweep{position:absolute;inset:0;pointer-events:none;opacity:0;background:linear-gradient(transparent 46%,#abebd333 50%,transparent 54%);background-size:100% 200%}.battle-demo[data-phase="scanning"] .scan-sweep{opacity:1;animation:scan 1.4s linear infinite}.ocr-target{position:absolute;border:1px solid #edcf86;box-shadow:0 0 20px #f2c46433;pointer-events:none;opacity:0;transition:opacity .6s}.ocr-target span{position:absolute;top:-22px;left:0;background:#17242beb;padding:4px 7px;color:#f2d48c;font-size:9px;white-space:nowrap}.enemy-target{left:39.5%;top:18%;width:25.5%;height:16%}.item-target{left:66.8%;top:57.8%;width:21%;height:12.2%}.battle-demo[data-phase="scanning"] .ocr-target,.battle-demo[data-phase="speaking"] .ocr-target{opacity:1}.replay-strategy{background:transparent;color:#c8b384;border-color:#8c794c66;padding:9px 12px;font-size:10px;letter-spacing:1px;white-space:nowrap}.strategy-showcase .demo-caption{font-size:10px;color:#72858e;max-width:none;text-align:right;margin:0}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+@keyframes voice{to{transform:scaleY(1)}}@keyframes signal{50%{opacity:.35}}@keyframes scan{from{background-position:0 -100%}to{background-position:0 200%}}@keyframes mascot-breathe{50%{transform:translateY(-2px) scale(1.025)}}@keyframes mascot-talk{0%,100%{transform:translateY(0) rotate(-2deg) scale(1)}50%{transform:translateY(-4px) rotate(2deg) scale(1.045)}}
+@media(min-width:1600px){.strategy-layout{grid-template-columns:minmax(300px,.65fr) minmax(0,1.8fr)}}@media(max-width:1000px){.strategy-layout{grid-template-columns:1fr;gap:30px}.strategy-copy h2 br{display:none}.strategy-copy p{max-width:750px}.strategy-steps{grid-template-columns:repeat(3,1fr)}.strategy-heading{gap:15px}.strategy-section{padding:65px 6%}.battle-demo{transform:none}}@media(max-width:600px){.strategy-heading{align-items:flex-start;flex-direction:column}.strategy-steps{grid-template-columns:1fr}.analysis-status{font-size:12px}.live-dialogue{border-width:1px}.voice-wave{gap:1px;transform:scale(.35)}.voice-line{height:2.1cqw}.ocr-target span{font-size:6px;top:-15px}.demo-bottomline{letter-spacing:0}.strategy-copy h2{font-size:32px}}
+/* Keep the label anchored below the independently animated transparent mascot. */
+.mascot-nameplate{position:absolute;top:100%;left:50%;transform:translateX(-50%);min-width:5.4cqw;padding:.25cqw .9cqw;border:0;border-radius:0;isolation:isolate;background:#ad8ce4;clip-path:polygon(12% 0,88% 0,100% 50%,88% 100%,12% 100%,0 50%);box-shadow:0 2px 10px #140b3299,inset 0 1px 0 #dcc4ff33;color:#f4edff;font-size:1.12cqw;font-weight:600;line-height:1.35;letter-spacing:.12cqw;text-align:center;white-space:nowrap}
+
+.mascot-nameplate:before{content:'';position:absolute;inset:1px;z-index:-1;background:linear-gradient(180deg,#51417b,#251c44);clip-path:polygon(12% 0,88% 0,100% 50%,88% 100%,12% 100%,0 50%)}
+.scroll-reveal.reveal-ready{opacity:0;transform:translateY(24px);filter:blur(3px);transition:opacity 1.5s cubic-bezier(.2,.65,.3,1),transform 1.5s cubic-bezier(.2,.65,.3,1),filter 1.5s ease;transition-delay:var(--reveal-delay,0s)}
+.scroll-reveal.reveal-ready.is-revealed{opacity:1;transform:translateY(0);filter:blur(0)}
+@media(prefers-reduced-motion:reduce){.scroll-reveal.reveal-ready{transform:none;filter:none;transition:opacity .3s ease;transition-delay:0s}}
+
+@media(hover:hover) and (pointer:fine){.battle-demo{transform:rotateX(var(--tilt-x,0deg)) rotateY(var(--tilt-y,-2deg));transition:transform .45s cubic-bezier(.2,.65,.3,1),box-shadow .7s}.battle-demo:hover{transform:rotateX(var(--tilt-x,0deg)) rotateY(var(--tilt-y,0deg))}}
+@media(max-width:600px){.demo-topline,.demo-bottomline{font-size:12px;letter-spacing:.4px;gap:10px}.demo-bottomline{flex-wrap:wrap}}
+@media(prefers-reduced-motion:reduce){.battle-demo,.battle-demo:hover{transform:none!important}}
+
+.teaching-section{background:radial-gradient(ellipse at 25% 45%,#26345555,transparent 65%)}
+.teaching-section .strategy-layout{grid-template-columns:minmax(0,1.8fr) minmax(260px,.7fr)}
+.trait-target{left:1%;top:10.3%;width:11.5%;height:5.8%}.lineup-target{left:26%;top:39%;width:24.5%;height:17.5%}
+@media(min-width:1600px){.teaching-section .strategy-layout{grid-template-columns:minmax(0,1.8fr) minmax(300px,.65fr)}}
+@media(max-width:1000px){.teaching-section .strategy-layout{grid-template-columns:1fr}.teaching-section .strategy-copy{grid-row:1}}
+
+.teaching-section .strategy-heading{flex-direction:column;align-items:flex-start;gap:14px;margin-bottom:28px}
+.teaching-section .strategy-copy{align-self:start;padding-top:16px}
+@media(max-width:1000px){.teaching-section .strategy-copy{padding-top:0}}
+</style><div class="curtain-glow" aria-hidden="true"></div><nav><div class="logo">✧ 弈星</div><div><a href="#about">项目概览</a><a href="#experience">陪伴体验</a><a href="#vision">设计愿景 ↗</a></div></nav><main><section class="hero"><div class="eyebrow">YIXING · YOUR COMPANION IN THE CONVERGENCE</div><h1>每一步，都有<em>“星”</em>回应</h1><p class="sub">懂棋局，也懂你。你的云顶之弈 AI 伴侣。</p><div class="hero-actions"><a class="button" href="#experience">探索弈星 ↓</a></div><div class="scene"><div class="orbit"></div><div class="orbit two"></div><div class="core"></div><div id="cards"></div><img class="figure left" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_27.jpg" alt="阿狸角色概念素材"><img class="figure right" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yasuo_0.jpg" alt="亚索角色概念素材"><img class="figure center" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lulu_0.jpg" alt="璐璐中心角色概念素材"><div class="scene-note">移动鼠标 · 感受棋局的涟漪</div></div><div class="scroll">SCROLL TO DISCOVER ─────</div></section><section class="section strategy-section" id="about">
+<div class="strategy-heading"><div class="eyebrow">01 / REAL-TIME STRATEGY DIALOGUE</div><span class="function-tag">功能一· 局内实时语音交互</span></div>
+<div class="strategy-layout"><div class="strategy-copy"><h2>搭子不在，<br>也有人和你<br><em>分析战局。</em></h2><p class="strategy-lead">看懂棋盘的变化，<br>接住你每一次犹豫。</p><p>弈星基于 OCR 图像识别读取局内信息，结合双方阵容、装备与运营局势，把复杂的决策线索，变成一句听得懂、用得上的建议。</p>
+<div class="decision-context"><span>本轮决策 · 局内策略辅助</span><h3>物理后排主 C，遇上高护甲前排？</h3><p>先看对手的四护卫，再看手里的反曲弓与拳套。优先补上破甲装备，并结合局势调整站位，让输出更有效地抵达目标。</p></div>
+<ol class="strategy-steps"><li><b>01</b><span>识别战局<small>双方阵容 · 羁绊 · 备选装备</small></span></li><li><b>02</b><span>理解处境<small>物理主 C 遭遇高护甲前排</small></span></li><li><b>03</b><span>给出建议<small>优先破甲 · 调整站位</small></span></li></ol></div>
+<div class="strategy-showcase"><div class="demo-topline"><span><i></i> 弈星 · 战局观察中</span><span>ROUND 4-5</span></div>
+<div class="battle-demo" data-phase="idle"><img class="battle-image" src="assets/strategy-clean.png" alt="云顶之弈四护卫对局：弈星分析前排护甲与最后的轻语合成方案" width="1672" height="941">
+<div class="scan-sweep" aria-hidden="true"></div><div class="ocr-target enemy-target" aria-hidden="true"><span>前排护甲 ↑</span></div><div class="ocr-target item-target" aria-hidden="true"><span>可合成 · 最后的轻语</span></div>
+<div class="mascot-cover"><img class="strategy-mascot" src="assets/yixing-mascot.png" alt="弈星，星冠紫眸萌鸟"><span class="mascot-nameplate">弈星</span></div>
+<div class="live-dialogue"><div class="voice-line"><span class="voice-icon">♩</span><div class="voice-wave" aria-hidden="true"><i style="--i:0;--height:9px"></i><i style="--i:1;--height:16px"></i><i style="--i:2;--height:23px"></i><i style="--i:3;--height:12px"></i><i style="--i:4;--height:28px"></i><i style="--i:5;--height:18px"></i><i style="--i:6;--height:10px"></i><i style="--i:7;--height:22px"></i><i style="--i:8;--height:15px"></i><i style="--i:9;--height:26px"></i><i style="--i:10;--height:12px"></i><i style="--i:11;--height:18px"></i></div><span class="speech-state">等待分析</span></div><div class="stream-copy" aria-hidden="true"></div><span class="sr-only">弈星建议：对面开了四护卫，前排护甲比较高。你手里的反曲弓加拳套正好能合成最后的轻语。给厄斐琉斯补上破甲，再调整一下站位，打前排会更舒服。</span></div>
+</div><div class="demo-bottomline"><span class="analysis-status" role="status">滚动到这里，听弈星分析这一局</span><button class="replay-strategy" type="button">↻ 重播战局分析</button></div><p class="demo-caption">产品效果演示 · OCR 识别流程与语音波形为动效示意</p></div></div></section><section class="section strategy-section teaching-section" id="experience">
+<div class="strategy-heading"><div class="eyebrow">02 / NEW-SEASON PLAYSTYLE GUIDE</div><span class="function-tag">功能二· 新兴流派教学</span></div>
+<div class="strategy-layout"><div class="strategy-showcase"><div class="demo-topline"><span><i></i> 弈星 · 新流派讲解中</span><span>ROUND 3-5</span></div>
+<div class="battle-demo" data-phase="idle"><img class="battle-image" src="assets/teaching-clean.png" alt="永恒之森对局：已有羁绊与棋子，以及弈星的新赛季运营教学" width="1672" height="941">
+<div class="scan-sweep" aria-hidden="true"></div><div class="ocr-target trait-target" aria-hidden="true"><span>3 永恒之森 · 植物召唤</span></div><div class="ocr-target lineup-target" aria-hidden="true"><span>保留当前过渡阵容</span></div>
+<div class="mascot-cover"><img class="strategy-mascot" src="assets/yixing-mascot.png" alt="弈星，星冠紫眸萌鸟"><span class="mascot-nameplate">弈星</span></div>
+<div class="live-dialogue"><div class="voice-line"><span class="voice-icon">♩</span><div class="voice-wave" aria-hidden="true"><i style="--i:0;--height:9px"></i><i style="--i:1;--height:16px"></i><i style="--i:2;--height:23px"></i><i style="--i:3;--height:12px"></i><i style="--i:4;--height:28px"></i><i style="--i:5;--height:18px"></i><i style="--i:6;--height:10px"></i><i style="--i:7;--height:22px"></i><i style="--i:8;--height:15px"></i><i style="--i:9;--height:26px"></i><i style="--i:10;--height:12px"></i><i style="--i:11;--height:18px"></i></div><span class="speech-state">等待分析</span></div><div class="stream-copy" aria-hidden="true"></div><span class="sr-only">弈星建议：你已经有 3 永恒之森了，这赛季能召唤植物参战。建议继续走这套，先保留过渡，存经济上八，再找厄斐琉斯补输出，不用现在硬转。</span></div>
+</div><div class="demo-bottomline"><span class="analysis-status" role="status">滚动到这里，跟弈星学会新流派</span><button class="replay-strategy" type="button">↻ 重播流派教学</button></div><p class="demo-caption">产品效果演示 · 羁绊机制与阵容建议基于所提供场景 · 语音为动效示意</p></div><div class="strategy-copy"><h2>赛季换新，<br>熟悉的你也能<br><em>找到新打法。</em></h2><p class="strategy-lead">不必从头摸索，<br>从手里的阵容，读懂新赛季。</p><p>回到云顶，羁绊和节奏已经悄悄换了模样。弈星结合当前棋盘讲解新兴流派，把新机制、过渡思路与后续补强连起来，帮你找到适合这一局的方向。</p>
+<div class="decision-context"><span>回流玩家 · 版本策略教学</span><h3>手里已有永恒之森，还要急着转型吗？</h3><p>来到 3-5，你已有霞、奥恩和阿利斯塔，却准备沿用旧赛季思路强行换阵。弈星解释 3 永恒之森的植物召唤机制，建议先保留过渡、存经济上八，再考虑补充厄斐琉斯。</p></div>
+<ol class="strategy-steps"><li><b>01</b><span>看懂起点<small>已有棋子 · 当前羁绊 · 经济</small></span></li><li><b>02</b><span>学会机制<small>3 永恒之森 · 植物协同作战</small></span></li><li><b>03</b><span>规划后续<small>保留过渡 · 存钱上八 · 补输出</small></span></li></ol></div>
+</div></section><section class="section" id="vision"><div class="eyebrow">03 / OUR VISION</div><h2>从一场好棋，到一段好时光。</h2><p>我们希望 AI 不只给出答案，更能理解玩家的节奏。在策略与情绪之间，创造更轻松、更有陪伴感的沉浸式游戏体验。</p></section></main><footer><span>✧ 弈星 / AI COMPANION · PORTFOLIO</span><span>非官方作品集概念 · 角色图像 © Riot Games</span></footer><script>
+const names=['Ahri','Ashe','Jinx','Lux','Yasuo','Lulu','Garen','Sona'];const cards=[];for(let s=0;s<2;s++)for(let i=0;i<7;i++){const el=document.createElement('div');el.className='card';const name=names[(i+s*3)%names.length];el.innerHTML=`<img src="https://ddragon.leagueoflegends.com/cdn/img/champion/loading/${name}_0.jpg" alt="${name} 英雄卡牌"><span>✦ ${name.toUpperCase()}</span>`;document.querySelector('#cards').append(el);cards.push({el,s,i});}let mouse={x:-999,y:-999};document.querySelector('.scene').addEventListener('pointermove',e=>{let r=e.currentTarget.getBoundingClientRect();mouse={x:(e.clientX-r.left)*1100/r.width,y:(e.clientY-r.top)*560/r.height}});document.querySelector('.scene').addEventListener('pointerleave',()=>mouse={x:-999,y:-999});const glow=document.querySelector('.curtain-glow');
 const light={x:0,y:0,targetX:0,targetY:0,ready:false,last:0};
-hero.addEventListener('pointermove',e=>{
+document.addEventListener('pointermove',e=>{
   if(e.pointerType==='touch')return;
-  const rect=hero.getBoundingClientRect();
-  light.targetX=e.clientX-rect.left;light.targetY=e.clientY-rect.top;
+  light.targetX=e.clientX;light.targetY=e.clientY;
   if(!light.ready){light.x=light.targetX;light.y=light.targetY;light.ready=true;}
-  hero.classList.add('is-pointer-active');
+  document.documentElement.classList.add('is-pointer-active');
 });
-hero.addEventListener('pointerleave',()=>hero.classList.remove('is-pointer-active'));
+function hideLight(){document.documentElement.classList.remove('is-pointer-active')}
+document.documentElement.addEventListener('pointerleave',hideLight);
+window.addEventListener('blur',hideLight);
 const reduced=false;function animate(t){
 const blend=1-Math.exp(-Math.min(t-light.last,50)/100);light.last=t;
 light.x+=(light.targetX-light.x)*blend;light.y+=(light.targetY-light.y)*blend;
 if(light.ready)glow.style.transform=`translate3d(${light.x}px,${light.y}px,0)`;
-cards.forEach(({el,s,i})=>{let p=reduced?(i+.5)/8:((t/9500+i/7)%1),x=s?980-482.5*p:15+482.5*p,y=240+120*Math.tan(Math.PI/12)-482.5*Math.tan(Math.PI/12)*p,distance=Math.hypot(mouse.x-x-50,mouse.y-y-60),wave=Math.max(0,1-distance/180);el.style.transform=`translate(${x}px,${y-wave*22}px) rotate(${(s?-1:1)*(20-25*p)+wave*Math.sin(t/300+i)*7}deg) scale(${1-wave*.02})`;el.style.opacity=Math.min(1,p*8)*(1-p)**.6;el.style.zIndex=wave>.3?4:1});requestAnimationFrame(animate)}requestAnimationFrame(animate);let index=0;document.querySelector('#switch').onclick=()=>{index=(index+1)%3;document.querySelector('#state').textContent=['局内 · 策略建议','语音 · 情绪陪伴','局后 · 复盘总结'][index];document.querySelector('#reply').textContent=['“先别急着刷新。一起看看当前阵容与经济，再决定这一轮的节奏。”','“这轮有点可惜，但还没结束。我陪你，我们一起找下一次机会。”','“这一局最值得回看的，是中期的节奏选择。一起看看还有哪些可能。”'][index]};
+cards.forEach(({el,s,i})=>{let p=reduced?(i+.5)/8:((t/9500+i/7)%1),x=s?980-482.5*p:15+482.5*p,y=240+120*Math.tan(Math.PI/12)-482.5*Math.tan(Math.PI/12)*p,distance=Math.hypot(mouse.x-x-50,mouse.y-y-60),wave=Math.max(0,1-distance/180);el.style.transform=`translate(${x}px,${y-wave*22}px) rotate(${(s?-1:1)*(20-25*p)+wave*Math.sin(t/300+i)*7}deg) scale(${1-wave*.02})`;el.style.opacity=Math.min(1,p*8)*(1-p)**.6;el.style.zIndex=wave>.3?4:1});requestAnimationFrame(animate)}requestAnimationFrame(animate);
+
+// Start the presentation only while its section is in view; replay cancels earlier output.
+document.querySelectorAll('.strategy-section').forEach(section=>{
+const battle=section.querySelector('.battle-demo');
+const teaching=section.id==='experience';
+// Read coordinates from the untransformed showcase to keep tilt stable near the edges.
+const showcase=section.querySelector('.strategy-showcase');
+battle.addEventListener('pointermove',e=>{
+  if(e.pointerType==='touch')return;
+  const rect=showcase.getBoundingClientRect();
+  const x=Math.max(-1,Math.min(1,(e.clientX-rect.left)/rect.width*2-1));
+  const y=Math.max(-1,Math.min(1,(e.clientY-rect.top)/rect.height*2-1));
+  battle.style.setProperty('--tilt-y',`${x*5}deg`);
+  battle.style.setProperty('--tilt-x',`${-y*2.5}deg`);
+});
+battle.addEventListener('pointerleave',()=>{
+  battle.style.removeProperty('--tilt-x');battle.style.removeProperty('--tilt-y');
+});
+const stream=section.querySelector('.stream-copy');
+const speechState=section.querySelector('.speech-state');
+const analysisStatus=section.querySelector('.analysis-status');
+const advice=teaching?'你已经有 3 永恒之森了，这赛季能召唤植物参战。建议继续走这套，先保留过渡，存经济上八，再找厄斐琉斯补输出，不用现在硬转。':'对面开了4护卫，前排护甲比较高。你手里的反曲弓 + 拳套正好能合成最后的轻语。给厄斐琉斯补上破甲，再调整一下站位，打前排会更舒服。';
+let strategyTimer=null,strategyVisible=false,strategyStarted=false,strategyPosition=0;
+function streamStrategy(){
+  if(!strategyVisible)return;
+  battle.dataset.phase='speaking';speechState.textContent='正在讲解';
+  analysisStatus.textContent=teaching?'03 / 后续规划 · 保留过渡，存经济上八':'03 / 决策建议 · 优先破甲，再调整站位';
+  stream.textContent=advice.slice(0,++strategyPosition);
+  if(strategyPosition<advice.length){strategyTimer=setTimeout(streamStrategy,/[。，]/.test(advice[strategyPosition-1])?230:58)}
+  else{battle.dataset.phase='done';speechState.textContent='讲解完成';analysisStatus.textContent=teaching?'教学完成 · 新赛季，也有熟悉的陪伴':'分析完成 · 每一次选择，都有弈星陪你';scheduleStrategyReplay();}
+}
+function scheduleStrategyReplay(){
+  clearTimeout(strategyTimer);
+  strategyTimer=strategyVisible?setTimeout(()=>{strategyTimer=null;if(strategyVisible)replayStrategy()},3000):null;
+}
+function replayStrategy(){clearTimeout(strategyTimer);strategyStarted=true;strategyPosition=0;stream.textContent='';battle.dataset.phase='scanning';speechState.textContent='分析中';analysisStatus.textContent=teaching?'01 / 识别起点 · 当前棋子、羁绊与经济':'01 / OCR 识别 · 阵容、羁绊与备选装备';strategyTimer=setTimeout(()=>{analysisStatus.textContent=teaching?'02 / 机制讲解 · 3 永恒之森召唤植物参战':'02 / 理解局势 · 物理输出遭遇高护甲前排';strategyTimer=setTimeout(streamStrategy,850)},900)}
+section.querySelector('.replay-strategy').addEventListener('click',()=>{strategyVisible=true;replayStrategy()});
+const strategyObserver=new IntersectionObserver(entries=>{entries.forEach(entry=>{
+  strategyVisible=entry.isIntersecting;
+  if(strategyVisible){
+    if(!strategyStarted)replayStrategy();
+    else if(battle.dataset.phase==='paused')streamStrategy();
+    else if(battle.dataset.phase==='done')scheduleStrategyReplay();
+  }else{
+    clearTimeout(strategyTimer);strategyTimer=null;
+    if(strategyStarted&&battle.dataset.phase!=='done'){battle.dataset.phase='paused';speechState.textContent='已暂停';}
+  }
+})},{threshold:.25});
+strategyObserver.observe(battle);
+
+});
+
+// Each text block enters once, in reading order, as it reaches the viewport.
+const revealObserver=new IntersectionObserver(entries=>{
+  entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('is-revealed');revealObserver.unobserve(entry.target)}});
+},{threshold:.15,rootMargin:'0px 0px -35px 0px'});
+document.querySelectorAll('.strategy-copy > h2, .strategy-copy > p, .strategy-copy > .decision-context, .strategy-copy > .strategy-steps').forEach((el,i)=>{
+  el.classList.add('scroll-reveal','reveal-ready');
+  el.style.setProperty('--reveal-delay',`${Math.min((i%5)*.18,.54)}s`);
+  revealObserver.observe(el);
+});
 </script></html>
