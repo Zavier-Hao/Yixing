@@ -152,7 +152,35 @@ html.is-block-scrolling{scroll-behavior:auto!important}
 @media(max-width:1000px){.vision-layout{grid-template-columns:1fr;gap:45px}.document-showcase{max-width:420px}.vision-copy h2{font-size:38px}#vision.vision-section{padding:55px 7% 110px}.vision-copy>p{font-size:15px}}
 @media(max-height:800px) and (min-width:1001px){.technical-card{padding:18px}.document-paper{min-height:215px;padding:20px;margin:18px 3px}.document-paper>b{font-size:22px}.document-caption{margin-top:16px}.vision-copy h2{font-size:42px}}
 @media(prefers-reduced-motion:reduce){.technical-card,.document-paper{transform:none!important;transition:none}.document-glint,.document-orbit,.document-orbit:before,.vision-signature>span{animation:none}}
-</style><div class="curtain-glow" aria-hidden="true"></div><nav><div class="logo">✧ 弈星</div><div><a href="#about">项目概览</a><a href="#experience">陪伴体验</a><a href="#vision">设计愿景 ↗</a></div></nav><main><section class="hero" id="home"><div class="eyebrow">YIXING · YOUR COMPANION IN THE CONVERGENCE</div><h1>每一步，都有<em>“星”</em>回应</h1><p class="sub">懂棋局，也懂你。你的云顶之弈 AI 伴侣。</p><div class="hero-actions"><a class="button" href="#experience">探索弈星 ↓</a></div><div class="hero-companion knight-companion"><div class="companion-aura" aria-hidden="true"></div><img src="assets/yixing-knight.png" alt="星辉紫羽萌鸟骑士"><span class="companion-spark spark-one" aria-hidden="true">✦</span><span class="companion-spark spark-two" aria-hidden="true">✧</span><span class="companion-spark spark-three" aria-hidden="true">✦</span></div><div class="scene"><div class="orbit"></div><div class="orbit two"></div><div class="core"></div><div id="cards"></div><img class="figure left" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_27.jpg" alt="阿狸角色概念素材"><img class="figure right" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yasuo_0.jpg" alt="亚索角色概念素材"><img class="figure center" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lulu_0.jpg" alt="璐璐中心角色概念素材"><div class="hero-companion book-companion"><div class="companion-aura" aria-hidden="true"></div><img src="assets/yixing-spellbook.png" alt="捧着星辉魔法书的弈星"><span class="companion-spark spark-one" aria-hidden="true">✦</span><span class="companion-spark spark-two" aria-hidden="true">✧</span></div><div class="scene-note">移动鼠标 · 感受棋局的涟漪</div></div><div class="scroll">SCROLL TO DISCOVER ─────</div></section><section class="section strategy-section" id="about">
+
+/* Feature one uses one desktop viewport with compact top/bottom spacing. */
+@media(min-width:1001px){
+ #about{padding:35px 5%;min-height:100svh;justify-content:center}
+ #about .strategy-heading{margin-bottom:20px}
+ #about .strategy-layout{align-items:center}
+ #about .strategy-copy h2{font-size:clamp(32px,2.9vw,48px);line-height:1.35;margin:0 0 18px}
+ #about .decision-context{margin:18px 0}
+ #about .strategy-steps{gap:12px;margin-top:20px}
+ #about .strategy-showcase{width:100%;max-width:calc((100svh - 210px)*1.7768);justify-self:end}
+ #about .demo-topline,#about .demo-bottomline{padding:12px 0}
+}
+@media(min-width:1001px) and (max-height:800px){
+ #about{padding-top:25px;padding-bottom:25px}
+ #about .strategy-copy h2{font-size:34px;margin-bottom:12px}
+ #about .strategy-copy p{line-height:1.7;margin:9px 0}
+ #about .strategy-copy .strategy-lead{font-size:15px}
+ #about .decision-context{margin:12px 0}
+ #about .strategy-steps{gap:9px;margin-top:14px}
+}
+@property --explore-turn{syntax:'<angle>';initial-value:0deg;inherits:false}
+.hero-actions .button{position:relative;display:inline-flex;align-items:center;justify-content:center;isolation:isolate;box-shadow:0 0 18px #d7b55e24;transition:background .4s,box-shadow .4s}
+.hero-actions .button:before{content:'';position:absolute;inset:-3px;padding:1px;pointer-events:none;background:conic-gradient(from var(--explore-turn),#bda16a18 0%,#bda16a18 55%,#e9cb8066 72%,#fff2be 81%,#dbb96088 87%,#bda16a18 100%);mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);mask-composite:exclude;animation:explore-gold-flow 6s linear infinite}
+.hero-actions .button:after{content:'';position:absolute;inset:-5px;z-index:-1;border:1px solid #e8c97b70;filter:blur(5px);pointer-events:none;animation:explore-gold-breathe 4s ease-in-out infinite}
+.hero-actions .button:hover{box-shadow:0 0 30px #dfbd6850}
+@keyframes explore-gold-flow{to{--explore-turn:360deg}}
+@keyframes explore-gold-breathe{50%{opacity:.35;transform:scale(1.04)}}
+@media(prefers-reduced-motion:reduce){.hero-actions .button:before,.hero-actions .button:after{animation:none}}
+</style><div class="curtain-glow" aria-hidden="true"></div><nav><div class="logo">✧ 弈星</div><div><a href="#about">项目概览</a><a href="#experience">陪伴体验</a><a href="#vision">设计愿景 ↗</a></div></nav><main><section class="hero" id="home"><div class="eyebrow">YIXING · YOUR COMPANION IN THE CONVERGENCE</div><h1>每一步，都有<em>“星”</em>回应</h1><p class="sub">懂棋局，也懂你。你的云顶之弈 AI 伴侣。</p><div class="hero-actions"><a class="button" href="#about">探索弈星 ↓</a></div><div class="hero-companion knight-companion"><div class="companion-aura" aria-hidden="true"></div><img src="assets/yixing-knight.png" alt="星辉紫羽萌鸟骑士"><span class="companion-spark spark-one" aria-hidden="true">✦</span><span class="companion-spark spark-two" aria-hidden="true">✧</span><span class="companion-spark spark-three" aria-hidden="true">✦</span></div><div class="scene"><div class="orbit"></div><div class="orbit two"></div><div class="core"></div><div id="cards"></div><img class="figure left" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_27.jpg" alt="阿狸角色概念素材"><img class="figure right" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yasuo_0.jpg" alt="亚索角色概念素材"><img class="figure center" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lulu_0.jpg" alt="璐璐中心角色概念素材"><div class="hero-companion book-companion"><div class="companion-aura" aria-hidden="true"></div><img src="assets/yixing-spellbook.png" alt="捧着星辉魔法书的弈星"><span class="companion-spark spark-one" aria-hidden="true">✦</span><span class="companion-spark spark-two" aria-hidden="true">✧</span></div><div class="scene-note">移动鼠标 · 感受棋局的涟漪</div></div><div class="scroll">SCROLL TO DISCOVER ─────</div></section><section class="section strategy-section" id="about">
 <div class="strategy-heading"><div class="eyebrow">01 / REAL-TIME STRATEGY DIALOGUE</div><span class="function-tag">功能一· 局内实时语音交互</span></div>
 <div class="strategy-layout"><div class="strategy-copy"><h2>搭子不在，<br>也有人和你<br><em>分析战局。</em></h2><p class="strategy-lead">看懂棋盘的变化，<br>接住你每一次犹豫。</p><p>弈星基于 OCR 图像识别读取局内信息，结合双方阵容、装备与运营局势，把复杂的决策线索，变成一句听得懂、用得上的建议。</p>
 <div class="decision-context"><span>本轮决策 · 局内策略辅助</span><h3>物理后排主 C，遇上高护甲前排？</h3><p>先看对手的四护卫，再看手里的反曲弓与拳套。优先补上破甲装备，并结合局势调整站位，让输出更有效地抵达目标。</p></div>
@@ -313,7 +341,7 @@ function chapterStops(){
     const bottom=chapter.getBoundingClientRect().bottom+window.scrollY;
     stops.push(top);
     // Feature two is one desktop stop; keep reading stops on narrow layouts.
-    if(['experience','review','companion'].includes(chapter.id)&&window.innerWidth>1000)return;
+    if(['about','experience','review','companion'].includes(chapter.id)&&window.innerWidth>1000)return;
     const final=Math.max(top,bottom-height);
     for(let step=top+height*.8;step<final-80;step+=height*.8)stops.push(step);
     if(final-top>80)stops.push(final);
