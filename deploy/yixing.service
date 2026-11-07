@@ -1,0 +1,22 @@
+[Unit]
+Description=Yixing AI companion backend
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=yixing-deploy
+Group=yixing-deploy
+WorkingDirectory=/var/www/yixing-live
+EnvironmentFile=/etc/yixing.env
+Environment=HOST=127.0.0.1
+Environment=PORT=5050
+Environment=TRUST_PROXY=1
+ExecStart=/usr/bin/node /var/www/yixing-live/server/index.mjs
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

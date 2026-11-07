@@ -1,0 +1,3707 @@
+{
+  "patch": "18.6",
+  "set": 18,
+  "checkedAt": "2026-11-07",
+  "compIndexSource": "https://tftcoach.com/comps",
+  "compIndex": [
+    "Elderwood · Lux",
+    "Lunar · Taric",
+    "Riftbeast · Ivern",
+    "Vanguard · Ivern",
+    "Elderwood · Ivern",
+    "Lunar · Lux",
+    "Blossom · Azir",
+    "Invoker · Lux",
+    "Elderwood · Kennen",
+    "Riftbeast · Elder Dragon",
+    "Spellweaver · Lux",
+    "Executioner · Ivern",
+    "Vanguard · Elder Dragon",
+    "Blackthorn · Lux",
+    "Blossom · Gnar",
+    "Blossom · Ivern",
+    "Elderwood · Gnar",
+    "Fae · Lux",
+    "Blossom · Lux",
+    "Blackthorn · Alune",
+    "Invoker · Ashe",
+    "Juggernaut · Taric",
+    "Inferno · Lux",
+    "Spellweaver · Alune",
+    "Invoker · Alune",
+    "Executioner · Lux",
+    "Fae · Gnar",
+    "Riftbeast · Taric",
+    "Juggernaut · Ivern",
+    "Lunar · Ezreal",
+    "Executioner · Gnar",
+    "Invoker · Ivern",
+    "Fae · Ivern",
+    "Defender · Ivern",
+    "Juggernaut · Ashe",
+    "Executioner · Kennen",
+    "Invoker · Taric",
+    "Riftbeast · Lux",
+    "Spellweaver · Ivern",
+    "Blossom · LeBlanc",
+    "Brawler · Gnar",
+    "Riftbeast · Gnar",
+    "Spellweaver · Gnar",
+    "Executioner · Alune",
+    "Primal · Ivern",
+    "Fae · Kennen",
+    "Blossom · Nidalee",
+    "Defender · Lux",
+    "Brawler · Alune",
+    "Rapidfire · LeBlanc",
+    "Blossom · Taric",
+    "Blossom · Ashe",
+    "Elderwood · Alune",
+    "Sprykin · Gnar",
+    "Invoker · Gnar",
+    "Primal · Lux",
+    "Blossom · Alune",
+    "Lunar · Varus",
+    "Spellweaver · Cassiopeia",
+    "Rapidfire · Alune",
+    "Invoker · LeBlanc",
+    "Elderwood · Draven",
+    "Vanguard · Alune",
+    "Elderwood · Taric",
+    "Inferno · Kennen",
+    "Vanguard · Ashe",
+    "Inferno · Alune",
+    "Fae · Aphelios",
+    "Brawler · Ivern",
+    "Inferno · Elder Dragon",
+    "Fae · Morgana",
+    "Vanguard · Draven",
+    "Juggernaut · Lux",
+    "Rapidfire · Diana",
+    "Vanguard · Taric",
+    "Fae · Sivir",
+    "Fae · Lillia",
+    "Inferno · Sejuani",
+    "Rapidfire · Lux",
+    "Vanguard · Kennen",
+    "Blackthorn · Rek'Sai",
+    "Blossom · Yunara",
+    "Inferno · Gnar",
+    "Executioner · Veigar",
+    "Executioner · Morgana",
+    "Blackthorn · Elder Dragon",
+    "Spellweaver · Ashe",
+    "Primal · Elder Dragon",
+    "Blossom · Kayle",
+    "Executioner · Ezreal",
+    "Spellweaver · Soraka",
+    "Invoker · Kennen",
+    "Inferno · Ashe",
+    "Defender · Leona",
+    "Defender · Fiddlesticks",
+    "Spellweaver · Rek'Sai",
+    "Blackthorn · Ezreal",
+    "Inferno · Amumu",
+    "Rapidfire · Draven",
+    "Primal · Kennen",
+    "Inferno · Sivir",
+    "Juggernaut · Alune",
+    "Lunar · Zyra",
+    "Elderwood · Ezreal",
+    "Blossom · Kennen",
+    "Riftbeast · Ashe",
+    "Executioner · Zyra",
+    "Defender · Gnar",
+    "Inferno · Aphelios",
+    "Adaptor · Kog'Maw",
+    "Vanguard · Lillia",
+    "Executioner · Aphelios",
+    "Fae · Brambleback",
+    "Spellweaver · Ahri",
+    "Defender · Alune",
+    "Spellweaver · Diana",
+    "Juggernaut · Amumu",
+    "Spellweaver · LeBlanc",
+    "Invoker · Morgana",
+    "Spellweaver · Ornn",
+    "Adaptor · Sett",
+    "Elderwood · Morgana",
+    "Primal · Alune",
+    "Adaptor · Kennen",
+    "Invoker · Kog'Maw",
+    "Juggernaut · Kennen",
+    "Defender · Varus",
+    "Spellweaver · Fiddlesticks",
+    "Blossom · Soraka",
+    "Executioner · Amumu",
+    "Defender · Sejuani",
+    "Defender · Zyra",
+    "Invoker · Sentinel",
+    "Lunar · Aphelios",
+    "Rapidfire · Sejuani",
+    "Defender · Kennen",
+    "Ravager · Aphelios",
+    "Defender · Lillia",
+    "Sprykin · Lillia",
+    "Elderwood · Sentinel",
+    "Executioner · Soraka",
+    "Defender · Kog'Maw",
+    "Vanguard · Aphelios",
+    "Defender · Soraka",
+    "Sprykin · Morgana",
+    "Blossom · Zyra",
+    "Elderwood · Zyra",
+    "Ravager · Brambleback",
+    "Summoner · Zyra",
+    "Defender · Nidalee",
+    "Adaptor · Nidalee",
+    "Ravager · Diana",
+    "Primal · Sivir",
+    "Rapidfire · Aphelios",
+    "Juggernaut · Draven",
+    "Defender · Draven",
+    "Elderwood · Ashe",
+    "Sprykin · Draven",
+    "Juggernaut · Elder Dragon",
+    "Vanguard · Morgana",
+    "Blackthorn · Morgana",
+    "Brawler · Ashe",
+    "Juggernaut · Vi",
+    "Riftbeast · Scuttlecrab",
+    "Invoker · Diana",
+    "Defender · Ezreal",
+    "Inferno · Lillia",
+    "Blossom · Krug",
+    "Invoker · Maokai",
+    "Adaptor · Vi",
+    "Inferno · Shen",
+    "Fae · Ezreal",
+    "Spellweaver · Morgana",
+    "Blossom · Maokai",
+    "Vanguard · Sentinel",
+    "Riftbeast · Alune",
+    "Vanguard · Diana",
+    "Vanguard · Tristana",
+    "Fae · Tristana",
+    "Brawler · Zyra",
+    "Executioner · Fiddlesticks",
+    "Invoker · Brambleback",
+    "Defender · Ahri",
+    "Adaptor · Sentinel",
+    "Blossom · Draven",
+    "Juggernaut · Maokai",
+    "Blossom · Ezreal",
+    "Summoner · Kha'Zix",
+    "Riftbeast · Zyra",
+    "Inferno · Ahri",
+    "Primal · Zyra",
+    "Vanguard · Hecarim",
+    "Blossom · Rengar",
+    "Brawler · Sivir",
+    "Ravager · Draven",
+    "Elderwood · Krug",
+    "Executioner · Sivir",
+    "Inferno · Kog'Maw",
+    "Brawler · Soraka",
+    "Brawler · Ahri",
+    "Juggernaut · Ahri",
+    "Defender · Morgana",
+    "Juggernaut · Azir",
+    "Adaptor · Gromp",
+    "Riftbeast · Sentinel",
+    "Vanguard · Mama Beak",
+    "Executioner · Azir",
+    "Spellweaver · Alistar",
+    "Defender · Ashe",
+    "Vanguard · Zyra",
+    "Elderwood · Kayle",
+    "Juggernaut · Zyra",
+    "Vanguard · Sivir",
+    "Invoker · Sett",
+    "Defender · Kayle",
+    "Summoner · Aphelios",
+    "Blackthorn · Krug",
+    "Riftbeast · Kog'Maw",
+    "Juggernaut · Aphelios",
+    "Blossom · Lillia",
+    "Rapidfire · Mama Beak",
+    "Defender · Camille",
+    "Defender · Cassiopeia",
+    "Elderwood · Soraka",
+    "Elderwood · Aphelios",
+    "Lunar · Diana",
+    "Juggernaut · Nidalee",
+    "Blossom · Ahri",
+    "Juggernaut · Sivir",
+    "Riftbeast · Gromp",
+    "Invoker · Nidalee",
+    "Hunter · Sivir",
+    "Riftbeast · Brambleback",
+    "Invoker · Ahri",
+    "Defender · Akali",
+    "Riftbeast · Nidalee",
+    "Defender · Sivir",
+    "Riftbeast · Sivir",
+    "Blackthorn · Murkwolf",
+    "Invoker · Teemo",
+    "Adaptor · Aphelios",
+    "Coven · Lux",
+    "Coven · Alune",
+    "Brawler · Ezreal",
+    "Coven · Draven",
+    "Defender · Rengar",
+    "Vanguard · Ezreal",
+    "Vanguard · Soraka",
+    "Riftbeast · Krug",
+    "Inferno · Kha'Zix",
+    "Inferno · Vi",
+    "Executioner · Sett",
+    "Blossom · Yorick",
+    "Coven · Ahri",
+    "Elderwood · Sivir",
+    "Juggernaut · Scuttlecrab",
+    "Riftbeast · Amumu",
+    "Sprykin · Ezreal",
+    "Coven · Brambleback",
+    "Vanguard · Ahri",
+    "Inferno · Ezreal",
+    "Inferno · Xayah",
+    "Juggernaut · Sejuani",
+    "Fae · Xayah",
+    "Executioner · Diana",
+    "Defender · Tristana",
+    "Ravager · Rengar",
+    "Blackthorn · Yunara",
+    "Juggernaut · Cassiopeia",
+    "Blackthorn · Kha'Zix",
+    "Elderwood · Alistar",
+    "Juggernaut · Ezreal",
+    "Fae · Rengar",
+    "Vanguard · Caitlyn",
+    "Ravager · Azir",
+    "Coven · Morgana",
+    "Sprykin · Fiddlesticks",
+    "Elderwood · Varus",
+    "Juggernaut · Kog'Maw",
+    "Defender · Aphelios",
+    "Sprykin · Aphelios",
+    "Adaptor · Diana",
+    "Juggernaut · Soraka",
+    "Elderwood · Yunara",
+    "Summoner · Ahri",
+    "Elderwood · Rengar",
+    "Ravager · Kha'Zix",
+    "Coven · Caitlyn",
+    "Blossom · Sivir",
+    "Invoker · Gromp",
+    "Flora Fatalis · Soraka",
+    "Juggernaut · Tristana",
+    "Ravager · Warwick",
+    "Riftbeast · Pebbles",
+    "Vanguard · Brambleback",
+    "Executioner · Kha'Zix",
+    "Summoner · Mama Beak",
+    "Blackthorn · Warwick",
+    "Sprykin · Veigar",
+    "Vanguard · Cassiopeia",
+    "Executioner · Ahri",
+    "Elderwood · Hecarim",
+    "Adaptor · Master Yi",
+    "Riftbeast · Cinderling",
+    "Riftbeast · Mama Beak",
+    "Sprykin · Teemo",
+    "Spellweaver · Veigar",
+    "Elderwood · Mama Beak",
+    "Juggernaut · Caitlyn",
+    "Riftbeast · Murkwolf",
+    "Blossom · Karma"
+  ],
+  "buildsPatch": "18.5",
+  "buildsSource": "https://tftcoach.com/champions",
+  "builds": [
+    {
+      "champion": "Lux",
+      "items": [
+        "Adaptive Helm",
+        "Morellonomicon",
+        "Blue Buff"
+      ]
+    },
+    {
+      "champion": "Ivern",
+      "items": [
+        "Spear of Shojin"
+      ]
+    },
+    {
+      "champion": "Taric",
+      "items": [
+        "Warmog's Armor",
+        "Gargoyle Stoneplate"
+      ]
+    },
+    {
+      "champion": "Gnar",
+      "items": [
+        "Sterak's Gage",
+        "Thief's Gloves"
+      ]
+    },
+    {
+      "champion": "Elder Dragon",
+      "items": [
+        "Striker's Flail",
+        "Red Buff",
+        "Last Whisper"
+      ]
+    },
+    {
+      "champion": "Alune",
+      "items": [
+        "Adaptive Helm",
+        "Blue Buff",
+        "Rabadon's Deathcap"
+      ]
+    },
+    {
+      "champion": "Maokai",
+      "items": [
+        "Bramble Vest",
+        "Spirit Visage",
+        "Crownguard"
+      ]
+    },
+    {
+      "champion": "Kennen",
+      "items": [
+        "Edge of Night",
+        "Hand Of Justice",
+        "Thief's Gloves"
+      ]
+    },
+    {
+      "champion": "Ashe",
+      "items": [
+        "Red Buff",
+        "Spear of Shojin",
+        "Last Whisper"
+      ]
+    },
+    {
+      "champion": "Draven",
+      "items": [
+        "Giant Slayer",
+        "Red Buff",
+        "Kraken's Fury"
+      ]
+    },
+    {
+      "champion": "Ezreal",
+      "items": [
+        "Striker's Flail",
+        "Deathblade",
+        "Giant Slayer"
+      ]
+    },
+    {
+      "champion": "Alistar",
+      "items": [
+        "Spirit Visage",
+        "Gargoyle Stoneplate",
+        "Warmog's Armor"
+      ]
+    },
+    {
+      "champion": "Amumu",
+      "items": [
+        "Warmog's Armor",
+        "Spirit Visage",
+        "Crownguard"
+      ]
+    },
+    {
+      "champion": "Murkwolf",
+      "items": []
+    },
+    {
+      "champion": "Sentinel",
+      "items": [
+        "Adaptive Helm",
+        "Protector's Vow",
+        "Crownguard"
+      ]
+    },
+    {
+      "champion": "Brambleback",
+      "items": [
+        "Hand Of Justice",
+        "Bloodthirster",
+        "Edge of Night"
+      ]
+    },
+    {
+      "champion": "Pebbles",
+      "items": [
+        "Blue Buff",
+        "Jeweled Gauntlet"
+      ]
+    },
+    {
+      "champion": "Kayle",
+      "items": [
+        "Rabadon's Deathcap",
+        "Jeweled Gauntlet",
+        "Guinsoo's Rageblade"
+      ]
+    },
+    {
+      "champion": "Soraka",
+      "items": [
+        "Nashor's Tooth",
+        "Adaptive Helm",
+        "Archangel's Staff"
+      ]
+    },
+    {
+      "champion": "Azir",
+      "items": [
+        "Rabadon's Deathcap",
+        "Hextech Gunblade",
+        "Guinsoo's Rageblade"
+      ]
+    },
+    {
+      "champion": "Krug",
+      "items": [
+        "Warmog's Armor",
+        "Gargoyle Stoneplate",
+        "Spirit Visage"
+      ]
+    },
+    {
+      "champion": "Veigar",
+      "items": [
+        "Jeweled Gauntlet",
+        "Blue Buff",
+        "Hextech Gunblade"
+      ]
+    },
+    {
+      "champion": "Ahri",
+      "items": [
+        "Blue Buff",
+        "Nashor's Tooth",
+        "Invoker Emblem"
+      ]
+    },
+    {
+      "champion": "Master Yi",
+      "items": [
+        "Quicksilver",
+        "Brawler Emblem",
+        "Edge of Night"
+      ]
+    },
+    {
+      "champion": "Sett",
+      "items": [
+        "Steadfast Heart",
+        "Sterak's Gage",
+        "Spirit Visage"
+      ]
+    },
+    {
+      "champion": "Aphelios",
+      "items": [
+        "Elderwood Emblem",
+        "Deathblade",
+        "Giant Slayer"
+      ]
+    },
+    {
+      "champion": "Teemo",
+      "items": [
+        "Striker's Flail",
+        "Rabadon's Deathcap",
+        "Jeweled Gauntlet"
+      ]
+    },
+    {
+      "champion": "Nidalee",
+      "items": [
+        "Bloodthirster",
+        "Edge of Night",
+        "Hand Of Justice"
+      ]
+    },
+    {
+      "champion": "Kog'Maw",
+      "items": [
+        "Red Buff",
+        "Spear of Shojin"
+      ]
+    },
+    {
+      "champion": "LeBlanc",
+      "items": [
+        "Spear of Shojin",
+        "Morellonomicon",
+        "Jeweled Gauntlet"
+      ]
+    },
+    {
+      "champion": "Lillia",
+      "items": [
+        "Adaptive Helm",
+        "Protector's Vow",
+        "Spirit Visage"
+      ]
+    },
+    {
+      "champion": "Morgana",
+      "items": [
+        "Rabadon's Deathcap",
+        "Void Staff",
+        "Morellonomicon"
+      ]
+    },
+    {
+      "champion": "Rengar",
+      "items": [
+        "Sterak's Gage",
+        "Hand Of Justice",
+        "Titan's Resolve"
+      ]
+    },
+    {
+      "champion": "Ornn",
+      "items": [
+        "Crownguard",
+        "Spirit Visage",
+        "Gargoyle Stoneplate"
+      ]
+    },
+    {
+      "champion": "Yunara",
+      "items": [
+        "Striker's Flail",
+        "Giant Slayer",
+        "Deathblade"
+      ]
+    },
+    {
+      "champion": "Sivir",
+      "items": [
+        "Striker's Flail",
+        "Deathblade",
+        "Fae Emblem"
+      ]
+    },
+    {
+      "champion": "Kha'Zix",
+      "items": [
+        "Nashor's Tooth",
+        "Rabadon's Deathcap",
+        "Hand Of Justice"
+      ]
+    },
+    {
+      "champion": "Leona",
+      "items": [
+        "Gargoyle Stoneplate"
+      ]
+    },
+    {
+      "champion": "Sejuani",
+      "items": [
+        "Crownguard",
+        "Warmog's Armor",
+        "Gargoyle Stoneplate"
+      ]
+    },
+    {
+      "champion": "Hecarim",
+      "items": [
+        "Sunfire Cape",
+        "Protector's Vow",
+        "Spirit Visage"
+      ]
+    },
+    {
+      "champion": "Fiddlesticks",
+      "items": []
+    },
+    {
+      "champion": "Rek'Sai",
+      "items": [
+        "Thief's Gloves",
+        "Warmog's Armor",
+        "Gargoyle Stoneplate"
+      ]
+    },
+    {
+      "champion": "Rammus",
+      "items": [
+        "Crownguard",
+        "Steadfast Heart",
+        "Spirit Visage"
+      ]
+    },
+    {
+      "champion": "Diana",
+      "items": []
+    },
+    {
+      "champion": "Yorick",
+      "items": []
+    },
+    {
+      "champion": "Gromp",
+      "items": [
+        "Spear of Shojin",
+        "Last Whisper"
+      ]
+    },
+    {
+      "champion": "Zyra",
+      "items": [
+        "Executioner Emblem",
+        "Hextech Gunblade",
+        "Archangel's Staff"
+      ]
+    },
+    {
+      "champion": "Vi",
+      "items": [
+        "Spirit Visage",
+        "Gargoyle Stoneplate",
+        "Warmog's Armor"
+      ]
+    },
+    {
+      "champion": "Xayah",
+      "items": [
+        "Infinity Edge",
+        "Guinsoo's Rageblade"
+      ]
+    },
+    {
+      "champion": "Cassiopeia",
+      "items": [
+        "Hextech Gunblade",
+        "Blue Buff",
+        "Void Staff"
+      ]
+    },
+    {
+      "champion": "Tristana",
+      "items": [
+        "Giant Slayer",
+        "Kraken's Fury",
+        "Hextech Gunblade"
+      ]
+    },
+    {
+      "champion": "Karma",
+      "items": [
+        "Executioner Emblem",
+        "Rabadon's Deathcap",
+        "Blue Buff"
+      ]
+    },
+    {
+      "champion": "Rakan",
+      "items": []
+    },
+    {
+      "champion": "Shen",
+      "items": []
+    },
+    {
+      "champion": "Elise",
+      "items": [
+        "Titan's Resolve",
+        "Guinsoo's Rageblade",
+        "Gargoyle Stoneplate"
+      ]
+    },
+    {
+      "champion": "Scuttlecrab",
+      "items": [
+        "Warmog's Armor",
+        "Gargoyle Stoneplate"
+      ]
+    },
+    {
+      "champion": "Mama Beak",
+      "items": [
+        "Titan's Resolve",
+        "Hextech Gunblade",
+        "Guinsoo's Rageblade"
+      ]
+    },
+    {
+      "champion": "Akali",
+      "items": [
+        "Infinity Edge",
+        "Hand Of Justice",
+        "Edge of Night"
+      ]
+    },
+    {
+      "champion": "Kobuko",
+      "items": []
+    },
+    {
+      "champion": "Cinderling",
+      "items": [
+        "Infinity Edge",
+        "Last Whisper"
+      ]
+    },
+    {
+      "champion": "Warwick",
+      "items": [
+        "Sterak's Gage",
+        "Titan's Resolve",
+        "Quicksilver"
+      ]
+    },
+    {
+      "champion": "Malphite",
+      "items": [
+        "Crownguard",
+        "Spirit Visage",
+        "Steadfast Heart"
+      ]
+    },
+    {
+      "champion": "Camille",
+      "items": [
+        "Bloodthirster",
+        "Edge of Night",
+        "Sterak's Gage"
+      ]
+    },
+    {
+      "champion": "Varus",
+      "items": [
+        "Infinity Edge",
+        "Last Whisper",
+        "Spear of Shojin"
+      ]
+    },
+    {
+      "champion": "Caitlyn",
+      "items": [
+        "Hextech Gunblade",
+        "Kraken's Fury",
+        "Radiant Guinsoo's Rageblade"
+      ]
+    }
+  ],
+  "guides": [
+    {
+      "name": "Elderwood · Lux",
+      "patch": "18.6",
+      "url": "https://tftcoach.com/comps/elderwood-lux",
+      "level": 9,
+      "core": [
+        "Ornn",
+        "Xayah",
+        "Alistar",
+        "LeBlanc",
+        "Hecarim",
+        "Ezreal",
+        "Gnar",
+        "Kennen",
+        "Lux"
+      ],
+      "carry": "Lux",
+      "items": [
+        "Spear of Shojin",
+        "Jeweled Gauntlet",
+        "Void Staff"
+      ]
+    },
+    {
+      "name": "Lunar · Taric",
+      "patch": "18.6",
+      "url": "https://tftcoach.com/comps/lunar-taric",
+      "level": 9,
+      "core": [
+        "Diana",
+        "Aphelios",
+        "Lillia",
+        "Amumu",
+        "Sentinel",
+        "Alune",
+        "Ivern",
+        "Lux",
+        "Taric"
+      ],
+      "carry": "Taric",
+      "items": [
+        "Thief's Gloves",
+        "Sterak's Gage",
+        "Kraken's Fury"
+      ]
+    },
+    {
+      "name": "Riftbeast · Ivern",
+      "patch": "18.6",
+      "url": "https://tftcoach.com/comps/riftbeast-ivern",
+      "level": 9,
+      "core": [
+        "Krug",
+        "Amumu",
+        "Sentinel",
+        "Elder Dragon",
+        "Ivern",
+        "Kennen",
+        "Maokai",
+        "Draven",
+        "Taric"
+      ],
+      "carry": "Ivern",
+      "items": [
+        "Spear of Shojin",
+        "Guinsoo's Rageblade",
+        "Thief's Gloves"
+      ]
+    },
+    {
+      "name": "Vanguard · Ivern",
+      "patch": "18.6",
+      "url": "https://tftcoach.com/comps/vanguard-ivern",
+      "carry": "Ivern",
+      "items": [
+        "Spear of Shojin",
+        "Jeweled Gauntlet",
+        "Thief's Gloves"
+      ],
+      "level": 9,
+      "core": [
+        "Rakan",
+        "Diana",
+        "Fiddlesticks",
+        "Lillia",
+        "Morgana",
+        "Sentinel",
+        "Alune",
+        "Ivern",
+        "Taric"
+      ]
+    },
+    {
+      "name": "Elderwood · Ivern",
+      "patch": "18.6",
+      "url": "https://tftcoach.com/comps/elderwood-ivern",
+      "carry": "Ivern",
+      "items": [
+        "Spear of Shojin",
+        "Guinsoo's Rageblade",
+        "Thief's Gloves"
+      ],
+      "level": 9,
+      "core": [
+        "Alistar",
+        "Ezreal",
+        "Amumu",
+        "Gnar",
+        "Ivern",
+        "Kennen",
+        "Maokai",
+        "Draven",
+        "Taric"
+      ]
+    },
+    {
+      "name": "Lunar · Lux",
+      "patch": "18.6",
+      "url": "https://tftcoach.com/comps/lunar-lux",
+      "carry": "Lux",
+      "items": [
+        "Spear of Shojin",
+        "Jeweled Gauntlet",
+        "Void Staff"
+      ],
+      "level": 9,
+      "core": [
+        "Rakan",
+        "Diana",
+        "Fiddlesticks",
+        "Lillia",
+        "Morgana",
+        "Sentinel",
+        "Alune",
+        "Lux",
+        "Taric"
+      ]
+    },
+    {
+      "name": "Blossom · Azir",
+      "patch": "18.6",
+      "url": "https://tftcoach.com/comps/blossom-azir",
+      "carry": "Azir",
+      "items": [
+        "Thief's Gloves",
+        "Guinsoo's Rageblade",
+        "Hextech Gunblade"
+      ],
+      "level": 8,
+      "core": [
+        "Leona",
+        "Yorick",
+        "Karma",
+        "Kayle",
+        "LeBlanc",
+        "Sejuani",
+        "Yunara",
+        "Azir"
+      ]
+    },
+    {
+      "name": "Invoker · Lux",
+      "patch": "18.6",
+      "url": "https://tftcoach.com/comps/invoker-lux",
+      "carry": "Lux",
+      "items": [
+        "Spear of Shojin",
+        "Jeweled Gauntlet",
+        "Rabadon's Deathcap"
+      ],
+      "level": 9,
+      "core": [
+        "Pebbles",
+        "Krug",
+        "Ahri",
+        "Morgana",
+        "Sett",
+        "Sentinel",
+        "Alune",
+        "Lux",
+        "Taric"
+      ]
+    },
+    {
+      "name": "Elderwood · Kennen",
+      "patch": "18.6",
+      "url": "https://tftcoach.com/comps/elderwood-kennen",
+      "carry": "Kennen",
+      "items": [
+        "Thief's Gloves",
+        "Edge of Night",
+        "Hand Of Justice"
+      ],
+      "level": 9,
+      "core": [
+        "Alistar",
+        "Ezreal",
+        "Amumu",
+        "Gnar",
+        "Ivern",
+        "Kennen",
+        "Maokai",
+        "Draven",
+        "Taric"
+      ]
+    },
+    {
+      "name": "Riftbeast · Elder Dragon",
+      "patch": "18.6",
+      "url": "https://tftcoach.com/comps/riftbeast-elder-dragon",
+      "carry": "Elder Dragon",
+      "items": [
+        "Infinity Edge",
+        "Last Whisper",
+        "Deathblade"
+      ],
+      "level": 9,
+      "core": [
+        "Pebbles",
+        "Murkwolf",
+        "Scuttlecrab",
+        "Krug",
+        "Brambleback",
+        "Sentinel",
+        "Elder Dragon",
+        "Gnar",
+        "Taric"
+      ]
+    },
+    {
+      "name": "Spellweaver · Lux",
+      "patch": "18.6",
+      "url": "https://tftcoach.com/comps/spellweaver-lux",
+      "carry": "Lux",
+      "items": [
+        "Void Staff",
+        "Spear of Shojin",
+        "Spellweaver Emblem"
+      ],
+      "level": 9,
+      "core": [
+        "Ornn",
+        "Rek'Sai",
+        "Veigar",
+        "Alistar",
+        "LeBlanc",
+        "Fiddlesticks",
+        "Ahri",
+        "Alune",
+        "Lux"
+      ]
+    },
+    {
+      "name": "Executioner · Ivern",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/executioner-ivern",
+      "carry": "Ivern",
+      "items": [
+        "Spear of Shojin",
+        "Guinsoo's Rageblade",
+        "Void Staff"
+      ],
+      "level": 9,
+      "core": [
+        "Azir",
+        "Fiddlesticks",
+        "Ezreal",
+        "Soraka",
+        "Amumu",
+        "Ivern",
+        "Kennen",
+        "Maokai",
+        "Taric"
+      ]
+    },
+    {
+      "name": "Vanguard · Elder Dragon",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/vanguard-elder-dragon",
+      "carry": "Elder Dragon",
+      "items": [
+        "Infinity Edge",
+        "Last Whisper",
+        "Sterak's Gage"
+      ],
+      "level": 9,
+      "core": [
+        "Elise",
+        "Cassiopeia",
+        "Diana",
+        "Hecarim",
+        "Morgana",
+        "Sentinel",
+        "Alune",
+        "Elder Dragon",
+        "Taric"
+      ]
+    },
+    {
+      "name": "Blackthorn · Lux",
+      "patch": "18.6",
+      "url": "https://tftcoach.com/comps/blackthorn-lux",
+      "carry": "Lux",
+      "items": [
+        "Spear of Shojin",
+        "Void Staff",
+        "Jeweled Gauntlet"
+      ],
+      "level": 8,
+      "core": [
+        "Rek'Sai",
+        "Veigar",
+        "LeBlanc",
+        "Azir",
+        "Fiddlesticks",
+        "Malphite",
+        "Soraka",
+        "Lux"
+      ]
+    },
+    {
+      "name": "Blossom · Gnar",
+      "patch": "18.6",
+      "url": "https://tftcoach.com/comps/blossom-gnar",
+      "carry": "Gnar",
+      "items": [
+        "Thief's Gloves",
+        "Sterak's Gage",
+        "Edge of Night"
+      ],
+      "level": 9,
+      "core": [
+        "Rakan",
+        "Yorick",
+        "Fiddlesticks",
+        "Ahri",
+        "Lillia",
+        "Sett",
+        "Zyra",
+        "Gnar",
+        "Taric"
+      ]
+    },
+    {
+      "name": "Blossom · Ivern",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/blossom-ivern",
+      "carry": "Ivern",
+      "items": [
+        "Spear of Shojin",
+        "Guinsoo's Rageblade",
+        "Void Staff"
+      ],
+      "level": 9,
+      "core": [
+        "Yorick",
+        "Karma",
+        "Ahri",
+        "Sett",
+        "Sentinel",
+        "Ashe",
+        "Gnar",
+        "Ivern",
+        "Taric"
+      ]
+    },
+    {
+      "name": "Elderwood · Gnar",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/elderwood-gnar",
+      "carry": "Gnar",
+      "items": [
+        "Thief's Gloves",
+        "Sterak's Gage",
+        "Bloodthirster"
+      ],
+      "level": 9,
+      "core": [
+        "Ornn",
+        "Xayah",
+        "Alistar",
+        "LeBlanc",
+        "Hecarim",
+        "Ezreal",
+        "Gnar",
+        "Kennen",
+        "Taric"
+      ]
+    },
+    {
+      "name": "Fae · Lux",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/fae-lux",
+      "carry": "Lux",
+      "items": [
+        "Spear of Shojin",
+        "Jeweled Gauntlet",
+        "Blue Buff"
+      ],
+      "level": 9,
+      "core": [
+        "Rakan",
+        "Diana",
+        "Tristana",
+        "Fiddlesticks",
+        "Lillia",
+        "Amumu",
+        "Sentinel",
+        "Lux",
+        "Taric"
+      ]
+    },
+    {
+      "name": "Blossom · Lux",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/blossom-lux",
+      "carry": "Lux",
+      "items": [
+        "Spear of Shojin",
+        "Jeweled Gauntlet",
+        "Void Staff"
+      ],
+      "level": 9,
+      "core": [
+        "Yorick",
+        "Karma",
+        "Krug",
+        "Ahri",
+        "Sett",
+        "Sentinel",
+        "Ashe",
+        "Gnar",
+        "Lux"
+      ]
+    },
+    {
+      "name": "Blackthorn · Alune",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/blackthorn-alune",
+      "carry": "Alune",
+      "items": [
+        "Spear of Shojin",
+        "Jeweled Gauntlet",
+        "Void Staff"
+      ],
+      "level": 9,
+      "core": [
+        "Rek'Sai",
+        "Veigar",
+        "LeBlanc",
+        "Azir",
+        "Fiddlesticks",
+        "Malphite",
+        "Soraka",
+        "Alune",
+        "Lux"
+      ]
+    },
+    {
+      "name": "Invoker · Ashe",
+      "patch": "18.6",
+      "url": "https://tftcoach.com/comps/invoker-ashe",
+      "carry": "Ashe",
+      "items": [
+        "Spear of Shojin",
+        "Red Buff",
+        "Infinity Edge"
+      ],
+      "level": 9,
+      "core": [
+        "Pebbles",
+        "Krug",
+        "Ahri",
+        "Morgana",
+        "Sett",
+        "Sentinel",
+        "Alune",
+        "Ashe",
+        "Taric"
+      ]
+    },
+    {
+      "name": "Juggernaut · Taric",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/juggernaut-taric",
+      "carry": "Taric",
+      "items": [
+        "Thief's Gloves",
+        "Sterak's Gage",
+        "Rabadon's Deathcap"
+      ],
+      "level": 9,
+      "core": [
+        "Rakan",
+        "Yorick",
+        "Vi",
+        "Sivir",
+        "Amumu",
+        "Ashe",
+        "Ivern",
+        "Maokai",
+        "Taric"
+      ]
+    },
+    {
+      "name": "Inferno · Lux",
+      "patch": "18.6",
+      "url": "https://tftcoach.com/comps/inferno-lux",
+      "carry": "Lux",
+      "items": [
+        "Spear of Shojin",
+        "Jeweled Gauntlet",
+        "Rabadon's Deathcap"
+      ],
+      "level": 9,
+      "core": [
+        "Varus",
+        "Shen",
+        "Vi",
+        "Lillia",
+        "Amumu",
+        "Kennen",
+        "Maokai",
+        "Lux",
+        "Taric"
+      ]
+    },
+    {
+      "name": "Invoker · Alune",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/invoker-alune",
+      "carry": "Alune",
+      "items": [
+        "Spear of Shojin",
+        "Jeweled Gauntlet",
+        "Archangel's Staff"
+      ],
+      "level": 9,
+      "core": [
+        "Pebbles",
+        "Diana",
+        "Krug",
+        "Ahri",
+        "Morgana",
+        "Sett",
+        "Sentinel",
+        "Alune",
+        "Taric"
+      ]
+    },
+    {
+      "name": "Executioner · Lux",
+      "patch": "18.6",
+      "url": "https://tftcoach.com/comps/executioner-lux",
+      "carry": "Lux",
+      "items": [
+        "Spear of Shojin",
+        "Jeweled Gauntlet",
+        "Void Staff"
+      ],
+      "level": 9,
+      "core": [
+        "Yorick",
+        "Azir",
+        "Fiddlesticks",
+        "Malphite",
+        "Soraka",
+        "Zyra",
+        "Amumu",
+        "Kennen",
+        "Lux"
+      ]
+    },
+    {
+      "name": "Fae · Gnar",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/fae-gnar",
+      "carry": "Gnar",
+      "items": [
+        "Thief's Gloves",
+        "Sterak's Gage",
+        "Bloodthirster"
+      ],
+      "level": 9,
+      "core": [
+        "Rakan",
+        "Xayah",
+        "Rammus",
+        "Tristana",
+        "Vi",
+        "Lillia",
+        "Sivir",
+        "Ashe",
+        "Gnar"
+      ]
+    },
+    {
+      "name": "Juggernaut · Ivern",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/juggernaut-ivern",
+      "carry": "Ivern",
+      "items": [
+        "Spear of Shojin",
+        "Guinsoo's Rageblade",
+        "Archangel's Staff"
+      ],
+      "level": 9,
+      "core": [
+        "Rakan",
+        "Yorick",
+        "Sejuani",
+        "Scuttlecrab",
+        "Vi",
+        "Zyra",
+        "Amumu",
+        "Ivern",
+        "Maokai"
+      ]
+    },
+    {
+      "name": "Fae · Ivern",
+      "patch": "18.4",
+      "url": "https://tftcoach.com/comps/fae-ivern",
+      "carry": "Ivern",
+      "items": [
+        "Spear of Shojin",
+        "Guinsoo's Rageblade",
+        "Void Staff"
+      ],
+      "level": 9,
+      "core": [
+        "Rakan",
+        "Tristana",
+        "Vi",
+        "Lillia",
+        "Sivir",
+        "Sentinel",
+        "Ivern",
+        "Lux",
+        "Taric"
+      ]
+    },
+    {
+      "name": "Juggernaut · Ashe",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/juggernaut-ashe",
+      "carry": "Ashe",
+      "items": [
+        "Spear of Shojin",
+        "Red Buff",
+        "Last Whisper"
+      ],
+      "level": 9,
+      "core": [
+        "Rakan",
+        "Yorick",
+        "Sejuani",
+        "Scuttlecrab",
+        "Vi",
+        "Sivir",
+        "Amumu",
+        "Ashe",
+        "Maokai"
+      ]
+    },
+    {
+      "name": "Executioner · Kennen",
+      "patch": "18.6",
+      "url": "https://tftcoach.com/comps/executioner-kennen",
+      "carry": "Kennen",
+      "items": [
+        "Thief's Gloves",
+        "Edge of Night",
+        "Hand Of Justice"
+      ],
+      "level": 9,
+      "core": [
+        "Yorick",
+        "Azir",
+        "Fiddlesticks",
+        "Ezreal",
+        "Malphite",
+        "Soraka",
+        "Zyra",
+        "Amumu",
+        "Kennen"
+      ]
+    },
+    {
+      "name": "Spellweaver · Ivern",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/spellweaver-ivern",
+      "carry": "Ivern",
+      "items": [
+        "Spear of Shojin",
+        "Void Staff",
+        "Hextech Gunblade"
+      ],
+      "level": 8,
+      "core": [
+        "Ornn",
+        "Rek'Sai",
+        "Veigar",
+        "Alistar",
+        "LeBlanc",
+        "Cassiopeia",
+        "Fiddlesticks",
+        "Ivern"
+      ]
+    },
+    {
+      "name": "Spellweaver · Gnar",
+      "patch": "18.4",
+      "url": "https://tftcoach.com/comps/spellweaver-gnar",
+      "carry": "Gnar",
+      "items": [
+        "Thief's Gloves",
+        "Sterak's Gage",
+        "Edge of Night"
+      ],
+      "level": 9,
+      "core": [
+        "Ornn",
+        "Rek'Sai",
+        "Veigar",
+        "LeBlanc",
+        "Cassiopeia",
+        "Fiddlesticks",
+        "Ahri",
+        "Alune",
+        "Gnar"
+      ]
+    },
+    {
+      "name": "Executioner · Alune",
+      "patch": "18.4",
+      "url": "https://tftcoach.com/comps/executioner-alune",
+      "carry": "Alune",
+      "items": [
+        "Spear of Shojin",
+        "Void Staff",
+        "Jeweled Gauntlet"
+      ],
+      "level": 9,
+      "core": [
+        "Ornn",
+        "Diana",
+        "Hecarim",
+        "Kha'Zix",
+        "Fiddlesticks",
+        "Ezreal",
+        "Soraka",
+        "Alune",
+        "Kennen"
+      ]
+    },
+    {
+      "name": "Primal · Ivern",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/primal-ivern",
+      "carry": "Ivern",
+      "items": [
+        "Spear of Shojin",
+        "Guinsoo's Rageblade",
+        "Jeweled Gauntlet"
+      ],
+      "level": 9,
+      "core": [
+        "Vi",
+        "Sivir",
+        "Amumu",
+        "Nidalee",
+        "Sentinel",
+        "Ivern",
+        "Maokai",
+        "Lux",
+        "Taric"
+      ]
+    },
+    {
+      "name": "Fae · Kennen",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/fae-kennen",
+      "carry": "Kennen",
+      "items": [
+        "Edge of Night",
+        "Thief's Gloves",
+        "Rabadon's Deathcap"
+      ],
+      "level": 9,
+      "core": [
+        "Rakan",
+        "Xayah",
+        "Tristana",
+        "Fiddlesticks",
+        "Ezreal",
+        "Lillia",
+        "Amumu",
+        "Kennen",
+        "Lux"
+      ]
+    },
+    {
+      "name": "Blossom · Nidalee",
+      "patch": "18.6",
+      "url": "https://tftcoach.com/comps/blossom-nidalee",
+      "carry": "Nidalee",
+      "items": [
+        "Spear of Shojin",
+        "Guinsoo's Rageblade",
+        "Infinity Edge"
+      ],
+      "level": 8,
+      "core": [
+        "Yorick",
+        "Master Yi",
+        "Rengar",
+        "Kog'Maw",
+        "Krug",
+        "Vi",
+        "Sett",
+        "Nidalee"
+      ]
+    },
+    {
+      "name": "Defender · Lux",
+      "patch": "18.4",
+      "url": "https://tftcoach.com/comps/defender-lux",
+      "carry": "Lux",
+      "items": [
+        "Spear of Shojin",
+        "Jeweled Gauntlet",
+        "Void Staff"
+      ],
+      "level": 8,
+      "core": [
+        "Leona",
+        "Ornn",
+        "Shen",
+        "Cassiopeia",
+        "Rammus",
+        "Fiddlesticks",
+        "Lillia",
+        "Lux"
+      ]
+    },
+    {
+      "name": "Spellweaver · Alune",
+      "patch": "unverified",
+      "url": "https://tftcoach.com/comps/spellweaver-alune",
+      "level": 9,
+      "core": [
+        "Ornn",
+        "Rek'Sai",
+        "Veigar",
+        "Alistar",
+        "LeBlanc",
+        "Cassiopeia",
+        "Fiddlesticks",
+        "Ahri",
+        "Alune"
+      ],
+      "carry": "Alune",
+      "items": [
+        "Void Staff",
+        "Spear of Shojin",
+        "Jeweled Gauntlet"
+      ],
+      "note": "页面未明确标注本攻略补丁；归档参考，不能当作18.6已验证方案。"
+    },
+    {
+      "name": "Brawler · Alune",
+      "patch": "18.4",
+      "url": "https://tftcoach.com/comps/brawler-alune",
+      "level": 9,
+      "core": [
+        "Kobuko",
+        "Rek'Sai",
+        "Veigar",
+        "Alistar",
+        "LeBlanc",
+        "Fiddlesticks",
+        "Sett",
+        "Alune",
+        "Gnar"
+      ],
+      "carry": "Alune",
+      "items": [
+        "Void Staff",
+        "Spear of Shojin",
+        "Jeweled Gauntlet"
+      ]
+    },
+    {
+      "name": "Blossom · Ashe",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/blossom-ashe",
+      "level": 9,
+      "core": [
+        "Yorick",
+        "Karma",
+        "Master Yi",
+        "Vi",
+        "Ahri",
+        "Sett",
+        "Sivir",
+        "Ashe",
+        "Gnar"
+      ],
+      "carry": "Ashe",
+      "items": [
+        "Spear of Shojin",
+        "Red Buff",
+        "Last Whisper"
+      ]
+    },
+    {
+      "name": "Sprykin · Gnar",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/sprykin-gnar",
+      "level": 8,
+      "core": [
+        "Kobuko",
+        "Veigar",
+        "Teemo",
+        "Rammus",
+        "Tristana",
+        "Fiddlesticks",
+        "Lillia",
+        "Gnar"
+      ],
+      "carry": "Gnar",
+      "items": [
+        "Thief's Gloves",
+        "Sterak's Gage",
+        "Bloodthirster"
+      ]
+    },
+    {
+      "name": "Primal · Lux",
+      "patch": "18.6",
+      "url": "https://tftcoach.com/comps/primal-lux",
+      "level": 9,
+      "core": [
+        "Kog'Maw",
+        "Vi",
+        "Sivir",
+        "Amumu",
+        "Nidalee",
+        "Sentinel",
+        "Ashe",
+        "Maokai",
+        "Lux"
+      ],
+      "carry": "Lux",
+      "items": [
+        "Spear of Shojin",
+        "Jeweled Gauntlet",
+        "Rabadon's Deathcap"
+      ]
+    },
+    {
+      "name": "Lunar · Varus",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/lunar-varus",
+      "level": 8,
+      "core": [
+        "Leona",
+        "Varus",
+        "Kayle",
+        "Sejuani",
+        "Shen",
+        "Diana",
+        "Aphelios",
+        "Alune"
+      ],
+      "carry": "Varus",
+      "items": [
+        "Infinity Edge",
+        "Spear of Shojin",
+        "Last Whisper"
+      ]
+    },
+    {
+      "name": "Spellweaver · Cassiopeia",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/spellweaver-cassiopeia",
+      "level": 8,
+      "core": [
+        "Ornn",
+        "Rek'Sai",
+        "Veigar",
+        "Alistar",
+        "LeBlanc",
+        "Cassiopeia",
+        "Fiddlesticks"
+      ],
+      "carry": "Cassiopeia",
+      "items": [
+        "Void Staff",
+        "Morellonomicon",
+        "Red Buff"
+      ]
+    },
+    {
+      "name": "Rapidfire · Alune",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/rapidfire-alune",
+      "level": 9,
+      "core": [
+        "Leona",
+        "Varus",
+        "Xayah",
+        "Kayle",
+        "Sejuani",
+        "Diana",
+        "Mama Beak",
+        "Aphelios",
+        "Alune"
+      ],
+      "carry": "Alune",
+      "items": [
+        "Spear of Shojin",
+        "Jeweled Gauntlet",
+        "Blue Buff"
+      ]
+    },
+    {
+      "name": "Elderwood · Draven",
+      "patch": "18.6",
+      "url": "https://tftcoach.com/comps/elderwood-draven",
+      "level": 9,
+      "core": [
+        "Alistar",
+        "Ezreal",
+        "Amumu",
+        "Gnar",
+        "Ivern",
+        "Kennen",
+        "Maokai",
+        "Draven",
+        "Taric"
+      ],
+      "carry": "Draven",
+      "items": [
+        "Guinsoo's Rageblade",
+        "Kraken's Fury",
+        "Deathblade"
+      ]
+    },
+    {
+      "name": "Vanguard · Alune",
+      "patch": "18.6",
+      "url": "https://tftcoach.com/comps/vanguard-alune",
+      "level": 9,
+      "core": [
+        "Rakan",
+        "Diana",
+        "Fiddlesticks",
+        "Lillia",
+        "Morgana",
+        "Sentinel",
+        "Alune",
+        "Ivern",
+        "Taric"
+      ],
+      "carry": "Alune",
+      "items": [
+        "Jeweled Gauntlet",
+        "Spear of Shojin",
+        "Archangel's Staff"
+      ]
+    },
+    {
+      "name": "Elderwood · Taric",
+      "patch": "18.6",
+      "url": "https://tftcoach.com/comps/elderwood-taric",
+      "level": 9,
+      "core": [
+        "Alistar",
+        "Ezreal",
+        "Amumu",
+        "Gnar",
+        "Ivern",
+        "Kennen",
+        "Maokai",
+        "Draven",
+        "Taric"
+      ],
+      "carry": "Taric",
+      "items": [
+        "Thief's Gloves",
+        "Kraken's Fury",
+        "Rabadon's Deathcap"
+      ]
+    },
+    {
+      "name": "Inferno · Kennen",
+      "patch": "18.6",
+      "url": "https://tftcoach.com/comps/inferno-kennen",
+      "level": 9,
+      "core": [
+        "Akali",
+        "Shen",
+        "Vi",
+        "Amumu",
+        "Ivern",
+        "Kennen",
+        "Maokai",
+        "Lux",
+        "Taric"
+      ],
+      "carry": "Kennen",
+      "items": [
+        "Thief's Gloves",
+        "Edge of Night",
+        "Hand Of Justice"
+      ]
+    },
+    {
+      "name": "Vanguard · Ashe",
+      "patch": "18.6",
+      "url": "https://tftcoach.com/comps/vanguard-ashe",
+      "level": 9,
+      "core": [
+        "Rakan",
+        "Elise",
+        "Diana",
+        "Hecarim",
+        "Vi",
+        "Sivir",
+        "Sentinel",
+        "Ashe",
+        "Taric"
+      ],
+      "carry": "Ashe",
+      "items": [
+        "Spear of Shojin",
+        "Last Whisper",
+        "Red Buff"
+      ]
+    },
+    {
+      "name": "Inferno · Alune",
+      "patch": "18.4",
+      "url": "https://tftcoach.com/comps/inferno-alune",
+      "level": 9,
+      "core": [
+        "Shen",
+        "Diana",
+        "Fiddlesticks",
+        "Amumu",
+        "Alune",
+        "Ivern",
+        "Kennen",
+        "Maokai",
+        "Taric"
+      ],
+      "carry": "Alune",
+      "items": [
+        "Spear of Shojin",
+        "Jeweled Gauntlet",
+        "Archangel's Staff"
+      ]
+    },
+    {
+      "name": "Fae · Aphelios",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/fae-aphelios",
+      "level": 9,
+      "core": [
+        "Rakan",
+        "Xayah",
+        "Kayle",
+        "Shen",
+        "Diana",
+        "Tristana",
+        "Aphelios",
+        "Lillia",
+        "Amumu"
+      ],
+      "carry": "Aphelios",
+      "items": [
+        "Guinsoo's Rageblade",
+        "Fae Emblem",
+        "Infinity Edge"
+      ]
+    },
+    {
+      "name": "Lunar · Morgana",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/fae-morgana ; rewritten summary of https://tftcoach.com/comps/lunar-morgana",
+      "level": 9,
+      "core": [
+        "Rakan",
+        "Diana",
+        "Fiddlesticks",
+        "Lillia",
+        "Morgana",
+        "Sentinel",
+        "Alune",
+        "Lux",
+        "Taric"
+      ],
+      "carry": "Morgana",
+      "items": [
+        "Void Staff",
+        "Morellonomicon",
+        "Rabadon's Deathcap"
+      ]
+    },
+    {
+      "name": "Juggernaut · Lux",
+      "patch": "18.4",
+      "url": "https://tftcoach.com/comps/juggernaut-lux",
+      "level": 9,
+      "core": [
+        "Rakan",
+        "Yorick",
+        "Sejuani",
+        "Scuttlecrab",
+        "Vi",
+        "Zyra",
+        "Amumu",
+        "Maokai",
+        "Lux"
+      ],
+      "carry": "Lux",
+      "items": [
+        "Spear of Shojin",
+        "Jeweled Gauntlet",
+        "Archangel's Staff"
+      ]
+    },
+    {
+      "name": "Vanguard · Taric",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/vanguard-taric",
+      "level": 9,
+      "core": [
+        "Rakan",
+        "Elise",
+        "Cassiopeia",
+        "Diana",
+        "Hecarim",
+        "Morgana",
+        "Sentinel",
+        "Alune",
+        "Taric"
+      ],
+      "carry": "Taric",
+      "items": [
+        "Thief's Gloves",
+        "Sterak's Gage",
+        "Kraken's Fury"
+      ]
+    },
+    {
+      "name": "Fae · Sivir",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/fae-sivir",
+      "level": 8,
+      "core": [
+        "Kobuko",
+        "Rakan",
+        "Xayah",
+        "Rammus",
+        "Tristana",
+        "Vi",
+        "Lillia",
+        "Sivir"
+      ],
+      "carry": "Sivir",
+      "items": [
+        "Last Whisper",
+        "Infinity Edge",
+        "Red Buff"
+      ]
+    },
+    {
+      "name": "Fae · Lillia",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/fae-lillia",
+      "level": 8,
+      "core": [
+        "Kobuko",
+        "Rakan",
+        "Xayah",
+        "Rammus",
+        "Tristana",
+        "Vi",
+        "Lillia",
+        "Sivir"
+      ],
+      "carry": "Lillia",
+      "items": [
+        "Thief's Gloves",
+        "Bloodthirster",
+        "Red Buff"
+      ]
+    },
+    {
+      "name": "Inferno · Sejuani",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/inferno-sejuani",
+      "level": 8,
+      "core": [
+        "Leona",
+        "Varus",
+        "Kayle",
+        "Sejuani",
+        "Shen",
+        "Diana",
+        "Aphelios",
+        "Amumu"
+      ],
+      "carry": "Sejuani",
+      "items": [
+        "Thief's Gloves",
+        "Sterak's Gage",
+        "Red Buff"
+      ]
+    },
+    {
+      "name": "Vanguard · Kennen",
+      "patch": "18.4",
+      "url": "https://tftcoach.com/comps/vanguard-kennen",
+      "level": 9,
+      "core": [
+        "Rakan",
+        "Diana",
+        "Hecarim",
+        "Amumu",
+        "Sentinel",
+        "Alune",
+        "Ivern",
+        "Kennen",
+        "Taric"
+      ],
+      "carry": "Kennen",
+      "items": [
+        "Edge of Night",
+        "Thief's Gloves",
+        "Hand Of Justice"
+      ]
+    },
+    {
+      "name": "Executioner · Ezreal",
+      "patch": "18.4",
+      "url": "https://tftcoach.com/comps/executioner-ezreal",
+      "level": 8,
+      "core": [
+        "Ornn",
+        "Yunara",
+        "Diana",
+        "Hecarim",
+        "Kha'Zix",
+        "Fiddlesticks",
+        "Ezreal",
+        "Soraka"
+      ],
+      "carry": "Ezreal",
+      "items": [
+        "Spear of Shojin",
+        "Deathblade",
+        "Red Buff"
+      ]
+    },
+    {
+      "name": "Spellweaver · Soraka",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/spellweaver-soraka",
+      "level": 8,
+      "core": [
+        "Ornn",
+        "Rek'Sai",
+        "Veigar",
+        "Alistar",
+        "LeBlanc",
+        "Cassiopeia",
+        "Fiddlesticks",
+        "Soraka"
+      ],
+      "carry": "Soraka",
+      "items": [
+        "Void Staff",
+        "Spear of Shojin",
+        "Nashor's Tooth"
+      ]
+    },
+    {
+      "name": "Primal · Kennen",
+      "patch": "18.4",
+      "url": "https://tftcoach.com/comps/primal-kennen",
+      "level": 9,
+      "core": [
+        "Vi",
+        "Sivir",
+        "Amumu",
+        "Sentinel",
+        "Ashe",
+        "Kennen",
+        "Maokai",
+        "Lux",
+        "Taric"
+      ],
+      "carry": "Kennen",
+      "items": [
+        "Thief's Gloves",
+        "Hand Of Justice",
+        "Edge of Night"
+      ]
+    },
+    {
+      "name": "Juggernaut · Alune",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/juggernaut-alune",
+      "level": 9,
+      "core": [
+        "Rakan",
+        "Yorick",
+        "Sejuani",
+        "Scuttlecrab",
+        "Vi",
+        "Zyra",
+        "Amumu",
+        "Alune",
+        "Maokai"
+      ],
+      "carry": "Alune",
+      "items": [
+        "Spear of Shojin",
+        "Archangel's Staff",
+        "Jeweled Gauntlet"
+      ]
+    },
+    {
+      "name": "Blossom · Kennen",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/blossom-kennen",
+      "level": 9,
+      "core": [
+        "Yorick",
+        "Karma",
+        "Yunara",
+        "Ahri",
+        "Sett",
+        "Amumu",
+        "Ashe",
+        "Gnar",
+        "Kennen"
+      ],
+      "carry": "Kennen",
+      "items": [
+        "Void Staff",
+        "Thief's Gloves",
+        "Red Buff"
+      ]
+    },
+    {
+      "name": "Executioner · Zyra",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/executioner-zyra",
+      "level": 8,
+      "core": [
+        "Veigar",
+        "Teemo",
+        "Azir",
+        "Rammus",
+        "Fiddlesticks",
+        "Soraka",
+        "Zyra",
+        "Kennen"
+      ],
+      "carry": "Zyra",
+      "items": [
+        "Void Staff",
+        "Spear of Shojin",
+        "Morellonomicon"
+      ]
+    },
+    {
+      "name": "Inferno · Aphelios",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/inferno-aphelios",
+      "level": 8,
+      "core": [
+        "Varus",
+        "Sejuani",
+        "Shen",
+        "Diana",
+        "Vi",
+        "Aphelios",
+        "Amumu",
+        "Sentinel"
+      ],
+      "carry": "Aphelios",
+      "items": [
+        "Guinsoo's Rageblade",
+        "Kraken's Fury",
+        "Infinity Edge"
+      ]
+    },
+    {
+      "name": "Fae · Brambleback",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/fae-brambleback",
+      "level": 8,
+      "core": [
+        "Rakan",
+        "Xayah",
+        "Shen",
+        "Diana",
+        "Aphelios",
+        "Lillia",
+        "Amumu",
+        "Brambleback"
+      ],
+      "carry": "Brambleback",
+      "items": [
+        "Sterak's Gage",
+        "Quicksilver",
+        "Edge of Night"
+      ]
+    },
+    {
+      "name": "Spellweaver · Diana",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/spellweaver-diana",
+      "level": 8,
+      "core": [
+        "Cassiopeia",
+        "Diana",
+        "Hecarim",
+        "Kha'Zix",
+        "Fiddlesticks",
+        "Ahri",
+        "Sentinel",
+        "Alune"
+      ],
+      "carry": "Diana",
+      "items": [
+        "Thief's Gloves",
+        "Rabadon's Deathcap",
+        "Bloodthirster"
+      ]
+    },
+    {
+      "name": "Juggernaut · Amumu",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/juggernaut-amumu",
+      "level": 9,
+      "core": [
+        "Rakan",
+        "Yorick",
+        "Sejuani",
+        "Scuttlecrab",
+        "Vi",
+        "Zyra",
+        "Amumu",
+        "Nidalee",
+        "Maokai"
+      ],
+      "carry": "Amumu",
+      "items": [
+        "Thief's Gloves",
+        "Archangel's Staff",
+        "Crownguard"
+      ]
+    },
+    {
+      "name": "Spellweaver · LeBlanc",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/spellweaver-leblanc",
+      "level": 7,
+      "core": [
+        "Ornn",
+        "Rek'Sai",
+        "Veigar",
+        "Alistar",
+        "LeBlanc",
+        "Cassiopeia",
+        "Fiddlesticks"
+      ],
+      "carry": "LeBlanc",
+      "items": [
+        "Void Staff",
+        "Spear of Shojin",
+        "Morellonomicon"
+      ]
+    },
+    {
+      "name": "Invoker · Morgana",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/invoker-morgana",
+      "level": 8,
+      "core": [
+        "Pebbles",
+        "Karma",
+        "Krug",
+        "Ahri",
+        "Morgana",
+        "Sett",
+        "Sentinel",
+        "Taric"
+      ],
+      "carry": "Morgana",
+      "items": [
+        "Void Staff",
+        "Morellonomicon",
+        "Rabadon's Deathcap"
+      ]
+    },
+    {
+      "name": "Spellweaver · Ornn",
+      "patch": "18.4",
+      "url": "https://tftcoach.com/comps/spellweaver-ornn",
+      "level": 7,
+      "core": [
+        "Ornn",
+        "Rek'Sai",
+        "Veigar",
+        "Alistar",
+        "LeBlanc",
+        "Cassiopeia",
+        "Fiddlesticks"
+      ],
+      "carry": "Ornn",
+      "items": [
+        "Thief's Gloves",
+        "Crownguard",
+        "Sterak's Gage"
+      ]
+    },
+    {
+      "name": "Primal · Alune",
+      "patch": "18.6",
+      "url": "https://tftcoach.com/comps/primal-alune",
+      "level": 9,
+      "core": [
+        "Varus",
+        "Diana",
+        "Kog'Maw",
+        "Vi",
+        "Aphelios",
+        "Amumu",
+        "Nidalee",
+        "Sentinel",
+        "Alune"
+      ],
+      "carry": "Alune",
+      "items": [
+        "Spear of Shojin",
+        "Jeweled Gauntlet",
+        "Archangel's Staff"
+      ]
+    },
+    {
+      "name": "Spellweaver · Fiddlesticks",
+      "patch": "unverified",
+      "url": "https://tftcoach.com/comps/spellweaver-fiddlesticks",
+      "level": 7,
+      "core": [
+        "Ornn",
+        "Rek'Sai",
+        "Veigar",
+        "Alistar",
+        "LeBlanc",
+        "Cassiopeia",
+        "Fiddlesticks"
+      ],
+      "carry": "Fiddlesticks",
+      "items": [
+        "Thief's Gloves",
+        "Hextech Gunblade",
+        "Sterak's Gage"
+      ],
+      "note": "页面未明确标注本攻略补丁；归档参考，不能当作18.6已验证方案。"
+    },
+    {
+      "name": "Defender · Sejuani",
+      "patch": "unverified",
+      "url": "https://tftcoach.com/comps/defender-sejuani",
+      "level": 7,
+      "core": [
+        "Leona",
+        "Ornn",
+        "Rakan",
+        "Varus",
+        "Xayah",
+        "Kayle",
+        "Sejuani"
+      ],
+      "carry": "Sejuani",
+      "items": [
+        "Thief's Gloves",
+        "Hextech Gunblade",
+        "Infinity Edge"
+      ],
+      "note": "页面未明确标注本攻略补丁；归档参考，不能当作18.6已验证方案。"
+    },
+    {
+      "name": "Lunar · Aphelios",
+      "patch": "18.6",
+      "url": "https://tftcoach.com/comps/lunar-aphelios",
+      "level": 9,
+      "core": [
+        "Leona",
+        "Varus",
+        "Kayle",
+        "Sejuani",
+        "Diana",
+        "Aphelios",
+        "Amumu",
+        "Sentinel",
+        "Alune"
+      ],
+      "carry": "Aphelios",
+      "items": [
+        "Guinsoo's Rageblade",
+        "Kraken's Fury",
+        "Infinity Edge"
+      ]
+    },
+    {
+      "name": "Sprykin · Lillia",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/sprykin-lillia",
+      "level": 8,
+      "core": [
+        "Kobuko",
+        "Teemo",
+        "Rammus",
+        "Rengar",
+        "Tristana",
+        "Lillia",
+        "Sivir",
+        "Gnar"
+      ],
+      "carry": "Lillia",
+      "items": [
+        "Thief's Gloves",
+        "Nashor's Tooth",
+        "Bloodthirster"
+      ]
+    },
+    {
+      "name": "Elderwood · Sentinel",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/elderwood-sentinel",
+      "level": 7,
+      "core": [
+        "Kobuko",
+        "Veigar",
+        "Alistar",
+        "LeBlanc",
+        "Teemo",
+        "Hecarim",
+        "Sentinel"
+      ],
+      "carry": "Sentinel",
+      "items": [
+        "Thief's Gloves",
+        "Sterak's Gage",
+        "Kraken's Fury"
+      ]
+    },
+    {
+      "name": "Executioner · Soraka",
+      "patch": "18.4",
+      "url": "https://tftcoach.com/comps/executioner-soraka",
+      "level": 8,
+      "core": [
+        "Yorick",
+        "Azir",
+        "Fiddlesticks",
+        "Ezreal",
+        "Malphite",
+        "Soraka",
+        "Zyra",
+        "Amumu"
+      ],
+      "carry": "Soraka",
+      "items": [
+        "Spear of Shojin",
+        "Rabadon's Deathcap",
+        "Archangel's Staff"
+      ]
+    },
+    {
+      "name": "Defender · Kog'Maw",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/defender-kog-maw",
+      "level": 8,
+      "core": [
+        "Akali",
+        "Leona",
+        "Ornn",
+        "Shen",
+        "Rammus",
+        "Fiddlesticks",
+        "Kog'Maw",
+        "Lillia"
+      ],
+      "carry": "Kog'Maw",
+      "items": [
+        "Red Buff",
+        "Spear of Shojin",
+        "Thief's Gloves"
+      ]
+    },
+    {
+      "name": "Vanguard · Aphelios",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/vanguard-aphelios",
+      "level": 8,
+      "core": [
+        "Diana",
+        "Hecarim",
+        "Mama Beak",
+        "Aphelios",
+        "Amumu",
+        "Brambleback",
+        "Sentinel",
+        "Taric"
+      ],
+      "carry": "Aphelios",
+      "items": [
+        "Guinsoo's Rageblade",
+        "Kraken's Fury",
+        "Infinity Edge"
+      ]
+    },
+    {
+      "name": "Defender · Nidalee",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/defender-nidalee",
+      "level": 8,
+      "core": [
+        "Rakan",
+        "Tristana",
+        "Kog'Maw",
+        "Vi",
+        "Lillia",
+        "Sivir",
+        "Amumu",
+        "Nidalee"
+      ],
+      "carry": "Nidalee",
+      "items": [
+        "Infinity Edge",
+        "Sterak's Gage",
+        "Spear of Shojin"
+      ]
+    },
+    {
+      "name": "Primal · Sivir",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/primal-sivir",
+      "level": 8,
+      "core": [
+        "Rakan",
+        "Kog'Maw",
+        "Vi",
+        "Sivir",
+        "Amumu",
+        "Nidalee",
+        "Sentinel",
+        "Ashe"
+      ],
+      "carry": "Sivir",
+      "items": [
+        "Infinity Edge",
+        "Spear of Shojin",
+        "Red Buff"
+      ]
+    },
+    {
+      "name": "Rapidfire · Aphelios",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/rapidfire-aphelios",
+      "level": 8,
+      "core": [
+        "Rakan",
+        "Varus",
+        "Diana",
+        "Mama Beak",
+        "Aphelios",
+        "Amumu",
+        "Brambleback",
+        "Sentinel"
+      ],
+      "carry": "Aphelios",
+      "items": [
+        "Infinity Edge",
+        "Guinsoo's Rageblade",
+        "Kraken's Fury"
+      ]
+    },
+    {
+      "name": "Elderwood · Ashe",
+      "patch": "18.4",
+      "url": "https://tftcoach.com/comps/elderwood-ashe",
+      "level": 9,
+      "core": [
+        "Alistar",
+        "Hecarim",
+        "Ezreal",
+        "Amumu",
+        "Ashe",
+        "Gnar",
+        "Kennen",
+        "Maokai",
+        "Taric"
+      ],
+      "carry": "Ashe",
+      "items": [
+        "Spear of Shojin",
+        "Last Whisper",
+        "Red Buff"
+      ]
+    },
+    {
+      "name": "Vanguard · Morgana",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/vanguard-morgana",
+      "level": 8,
+      "core": [
+        "Elise",
+        "Cassiopeia",
+        "Diana",
+        "Hecarim",
+        "Morgana",
+        "Sentinel",
+        "Alune",
+        "Taric"
+      ],
+      "carry": "Morgana",
+      "items": [
+        "Void Staff",
+        "Morellonomicon",
+        "Jeweled Gauntlet"
+      ]
+    },
+    {
+      "name": "Blackthorn · Morgana",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/blackthorn-morgana",
+      "level": 8,
+      "core": [
+        "Rek'Sai",
+        "Veigar",
+        "Azir",
+        "Fiddlesticks",
+        "Malphite",
+        "Morgana",
+        "Sentinel",
+        "Lux"
+      ],
+      "carry": "Morgana",
+      "items": [
+        "Void Staff",
+        "Morellonomicon",
+        "Jeweled Gauntlet"
+      ]
+    },
+    {
+      "name": "Defender · Ezreal",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/defender-ezreal",
+      "level": 8,
+      "core": [
+        "Ornn",
+        "Shen",
+        "Rammus",
+        "Fiddlesticks",
+        "Ezreal",
+        "Lillia",
+        "Soraka",
+        "Kennen"
+      ],
+      "carry": "Ezreal",
+      "items": [
+        "Spear of Shojin",
+        "Last Whisper",
+        "Deathblade"
+      ]
+    },
+    {
+      "name": "Inferno · Lillia",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/inferno-lillia",
+      "level": 9,
+      "core": [
+        "Akali",
+        "Varus",
+        "Shen",
+        "Vi",
+        "Lillia",
+        "Sivir",
+        "Amumu",
+        "Ashe",
+        "Kennen"
+      ],
+      "carry": "Lillia",
+      "items": [
+        "Thief's Gloves",
+        "Kraken's Fury",
+        "Jeweled Gauntlet"
+      ]
+    },
+    {
+      "name": "Invoker · Maokai",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/invoker-maokai",
+      "level": 9,
+      "core": [
+        "Pebbles",
+        "Krug",
+        "Ahri",
+        "Morgana",
+        "Sett",
+        "Amumu",
+        "Sentinel",
+        "Maokai",
+        "Taric"
+      ],
+      "carry": "Maokai",
+      "items": [
+        "Thief's Gloves",
+        "Nashor's Tooth",
+        "Sterak's Gage"
+      ]
+    },
+    {
+      "name": "Adaptor · Vi",
+      "patch": "18.4",
+      "url": "https://tftcoach.com/comps/adaptor-vi",
+      "level": 8,
+      "core": [
+        "Varus",
+        "Diana",
+        "Kog'Maw",
+        "Vi",
+        "Aphelios",
+        "Amumu",
+        "Nidalee",
+        "Sentinel"
+      ],
+      "carry": "Vi",
+      "items": [
+        "Thief's Gloves",
+        "Red Buff",
+        "Sterak's Gage"
+      ]
+    },
+    {
+      "name": "Fae · Ezreal",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/fae-ezreal",
+      "level": 9,
+      "core": [
+        "Rakan",
+        "Xayah",
+        "Hecarim",
+        "Fiddlesticks",
+        "Ezreal",
+        "Lillia",
+        "Soraka",
+        "Amumu",
+        "Kennen"
+      ],
+      "carry": "Ezreal",
+      "items": [
+        "Spear of Shojin",
+        "Last Whisper",
+        "Deathblade"
+      ]
+    },
+    {
+      "name": "Blossom · Maokai",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/blossom-maokai",
+      "level": 9,
+      "core": [
+        "Yorick",
+        "Karma",
+        "Yunara",
+        "Master Yi",
+        "Ahri",
+        "Sett",
+        "Ashe",
+        "Maokai",
+        "Lux"
+      ],
+      "carry": "Maokai",
+      "items": [
+        "Thief's Gloves",
+        "Guinsoo's Rageblade",
+        "Blue Buff"
+      ]
+    },
+    {
+      "name": "Vanguard · Sentinel",
+      "patch": "18.4",
+      "url": "https://tftcoach.com/comps/vanguard-sentinel",
+      "level": 8,
+      "core": [
+        "Elise",
+        "Cassiopeia",
+        "Diana",
+        "Hecarim",
+        "Morgana",
+        "Sentinel",
+        "Alune",
+        "Taric"
+      ],
+      "carry": "Sentinel",
+      "items": [
+        "Thief's Gloves",
+        "Sterak's Gage",
+        "Rabadon's Deathcap"
+      ]
+    },
+    {
+      "name": "Riftbeast · Alune",
+      "patch": "unverified",
+      "url": "https://tftcoach.com/comps/riftbeast-alune",
+      "level": 9,
+      "core": [
+        "Diana",
+        "Amumu",
+        "Sentinel",
+        "Alune",
+        "Elder Dragon",
+        "Ivern",
+        "Kennen",
+        "Maokai",
+        "Taric"
+      ],
+      "carry": "Alune",
+      "items": [
+        "Spear of Shojin",
+        "Jeweled Gauntlet",
+        "Void Staff"
+      ],
+      "note": "页面未明确标注本攻略补丁；归档参考，不能当作18.6已验证方案。"
+    },
+    {
+      "name": "Vanguard · Diana",
+      "patch": "18.4",
+      "url": "https://tftcoach.com/comps/vanguard-diana",
+      "level": 8,
+      "core": [
+        "Rakan",
+        "Elise",
+        "Cassiopeia",
+        "Diana",
+        "Hecarim",
+        "Morgana",
+        "Sentinel",
+        "Taric"
+      ],
+      "carry": "Diana",
+      "items": [
+        "Thief's Gloves",
+        "Jeweled Gauntlet",
+        "Hand Of Justice"
+      ]
+    },
+    {
+      "name": "Fae · Tristana",
+      "patch": "18.4",
+      "url": "https://tftcoach.com/comps/fae-tristana",
+      "level": 8,
+      "core": [
+        "Kobuko",
+        "Rakan",
+        "Rammus",
+        "Rengar",
+        "Tristana",
+        "Vi",
+        "Lillia",
+        "Sivir"
+      ],
+      "carry": "Tristana",
+      "items": [
+        "Guinsoo's Rageblade",
+        "Hextech Gunblade",
+        "Infinity Edge"
+      ]
+    },
+    {
+      "name": "Adaptor · Sentinel",
+      "patch": "unverified",
+      "url": "https://tftcoach.com/comps/adaptor-sentinel",
+      "level": 8,
+      "core": [
+        "Varus",
+        "Diana",
+        "Kog'Maw",
+        "Vi",
+        "Aphelios",
+        "Amumu",
+        "Nidalee",
+        "Sentinel"
+      ],
+      "carry": "Sentinel",
+      "items": [
+        "Thief's Gloves",
+        "Rabadon's Deathcap",
+        "Kraken's Fury"
+      ],
+      "note": "页面未明确标注本攻略补丁；归档参考，不能当作18.6已验证方案。"
+    },
+    {
+      "name": "Juggernaut · Maokai",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/juggernaut-maokai",
+      "level": 9,
+      "core": [
+        "Rakan",
+        "Yorick",
+        "Sejuani",
+        "Scuttlecrab",
+        "Vi",
+        "Sivir",
+        "Zyra",
+        "Amumu",
+        "Maokai"
+      ],
+      "carry": "Maokai",
+      "items": [
+        "Thief's Gloves",
+        "Kraken's Fury",
+        "Guinsoo's Rageblade"
+      ]
+    },
+    {
+      "name": "Vanguard · Zyra",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/riftbeast-zyra ; rewritten summary of https://tftcoach.com/comps/vanguard-zyra",
+      "level": 8,
+      "core": [
+        "Diana",
+        "Hecarim",
+        "Mama Beak",
+        "Aphelios",
+        "Zyra",
+        "Brambleback",
+        "Sentinel",
+        "Taric"
+      ],
+      "carry": "Zyra",
+      "items": [
+        "Spear of Shojin",
+        "Archangel's Staff",
+        "Jeweled Gauntlet"
+      ]
+    },
+    {
+      "name": "Blossom · Rengar",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/blossom-rengar",
+      "level": 7,
+      "core": [
+        "Yorick",
+        "Master Yi",
+        "Rengar",
+        "Krug",
+        "Vi",
+        "Sett",
+        "Nidalee"
+      ],
+      "carry": "Rengar",
+      "items": [
+        "Guinsoo's Rageblade",
+        "Edge of Night",
+        "Quicksilver"
+      ]
+    },
+    {
+      "name": "Brawler · Sivir",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/brawler-sivir",
+      "level": 8,
+      "core": [
+        "Kog'Maw",
+        "Krug",
+        "Vi",
+        "Sett",
+        "Sivir",
+        "Nidalee",
+        "Sentinel",
+        "Gnar"
+      ],
+      "carry": "Sivir",
+      "items": [
+        "Infinity Edge",
+        "Red Buff",
+        "Spear of Shojin"
+      ]
+    },
+    {
+      "name": "Brawler · Soraka",
+      "patch": "18.4",
+      "url": "https://tftcoach.com/comps/brawler-soraka",
+      "level": 8,
+      "core": [
+        "Kobuko",
+        "Alistar",
+        "Fiddlesticks",
+        "Krug",
+        "Ezreal",
+        "Sett",
+        "Soraka",
+        "Gnar"
+      ],
+      "carry": "Soraka",
+      "items": [
+        "Spear of Shojin",
+        "Jeweled Gauntlet",
+        "Void Staff"
+      ]
+    },
+    {
+      "name": "Juggernaut · Ahri",
+      "patch": "18.4",
+      "url": "https://tftcoach.com/comps/juggernaut-ahri",
+      "level": 8,
+      "core": [
+        "Rakan",
+        "Yorick",
+        "Karma",
+        "Scuttlecrab",
+        "Vi",
+        "Ahri",
+        "Amumu",
+        "Maokai"
+      ],
+      "carry": "Ahri",
+      "items": [
+        "Jeweled Gauntlet",
+        "Spear of Shojin",
+        "Striker's Flail"
+      ]
+    },
+    {
+      "name": "Spellweaver · Alistar",
+      "patch": "18.4",
+      "url": "https://tftcoach.com/comps/spellweaver-alistar",
+      "level": 7,
+      "core": [
+        "Ornn",
+        "Rek'Sai",
+        "Veigar",
+        "Alistar",
+        "LeBlanc",
+        "Cassiopeia",
+        "Fiddlesticks"
+      ],
+      "carry": "Alistar",
+      "items": [
+        "Thief's Gloves",
+        "Sterak's Gage",
+        "Crownguard"
+      ]
+    },
+    {
+      "name": "Juggernaut · Zyra",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/juggernaut-zyra",
+      "level": 8,
+      "core": [
+        "Rakan",
+        "Yorick",
+        "Sejuani",
+        "Scuttlecrab",
+        "Vi",
+        "Zyra",
+        "Amumu",
+        "Maokai"
+      ],
+      "carry": "Zyra",
+      "items": [
+        "Archangel's Staff",
+        "Hextech Gunblade",
+        "Spear of Shojin"
+      ]
+    },
+    {
+      "name": "Defender · Kayle",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/defender-kayle",
+      "level": 7,
+      "core": [
+        "Leona",
+        "Varus",
+        "Kayle",
+        "Sejuani",
+        "Shen",
+        "Diana",
+        "Aphelios"
+      ],
+      "carry": "Kayle",
+      "items": [
+        "Guinsoo's Rageblade",
+        "Jeweled Gauntlet",
+        "Rabadon's Deathcap"
+      ]
+    },
+    {
+      "name": "Blossom · Ahri",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/blossom-ahri",
+      "level": 8,
+      "core": [
+        "Rakan",
+        "Yorick",
+        "Fiddlesticks",
+        "Ahri",
+        "Lillia",
+        "Sett",
+        "Zyra",
+        "Gnar"
+      ],
+      "carry": "Ahri",
+      "items": [
+        "Jeweled Gauntlet",
+        "Spear of Shojin",
+        "Striker's Flail"
+      ]
+    },
+    {
+      "name": "Juggernaut · Sivir",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/juggernaut-sivir",
+      "level": 8,
+      "core": [
+        "Rakan",
+        "Yorick",
+        "Sejuani",
+        "Scuttlecrab",
+        "Vi",
+        "Sivir",
+        "Amumu",
+        "Maokai"
+      ],
+      "carry": "Sivir",
+      "items": [
+        "Infinity Edge",
+        "Last Whisper",
+        "Spear of Shojin"
+      ]
+    },
+    {
+      "name": "Hunter · Sivir",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/hunter-sivir",
+      "level": 8,
+      "core": [
+        "Cinderling",
+        "Tristana",
+        "Kog'Maw",
+        "Vi",
+        "Sivir",
+        "Nidalee",
+        "Sentinel",
+        "Ashe"
+      ],
+      "carry": "Sivir",
+      "items": [
+        "Infinity Edge",
+        "Spear of Shojin",
+        "Red Buff"
+      ]
+    },
+    {
+      "name": "Riftbeast · Brambleback",
+      "patch": "18.4",
+      "url": "https://tftcoach.com/comps/riftbeast-brambleback",
+      "level": 8,
+      "core": [
+        "Pebbles",
+        "Cinderling",
+        "Murkwolf",
+        "Scuttlecrab",
+        "Krug",
+        "Brambleback",
+        "Sentinel",
+        "Gnar"
+      ],
+      "carry": "Brambleback",
+      "items": [
+        "Sterak's Gage",
+        "Edge of Night",
+        "Infinity Edge"
+      ]
+    },
+    {
+      "name": "Invoker · Ahri",
+      "patch": "18.4",
+      "url": "https://tftcoach.com/comps/invoker-ahri",
+      "level": 8,
+      "core": [
+        "Pebbles",
+        "Karma",
+        "Krug",
+        "Ahri",
+        "Morgana",
+        "Sett",
+        "Sentinel",
+        "Taric"
+      ],
+      "carry": "Ahri",
+      "items": [
+        "Jeweled Gauntlet",
+        "Spear of Shojin",
+        "Striker's Flail"
+      ]
+    },
+    {
+      "name": "Riftbeast · Sivir",
+      "patch": "18.6",
+      "url": "https://tftcoach.com/comps/riftbeast-sivir",
+      "level": 8,
+      "core": [
+        "Rek'Sai",
+        "Cinderling",
+        "Kog'Maw",
+        "Krug",
+        "Malphite",
+        "Sivir",
+        "Nidalee",
+        "Sentinel"
+      ],
+      "carry": "Sivir",
+      "items": [
+        "Infinity Edge",
+        "Red Buff",
+        "Spear of Shojin"
+      ]
+    },
+    {
+      "name": "Blackthorn · Murkwolf",
+      "patch": "18.6",
+      "url": "https://tftcoach.com/comps/blackthorn-murkwolf",
+      "level": 8,
+      "core": [
+        "Rek'Sai",
+        "Warwick",
+        "Murkwolf",
+        "Azir",
+        "Diana",
+        "Krug",
+        "Malphite",
+        "Brambleback"
+      ],
+      "carry": "Murkwolf",
+      "items": [
+        "Hand Of Justice",
+        "Edge of Night",
+        "Quicksilver"
+      ]
+    },
+    {
+      "name": "Adaptor · Aphelios",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/adaptor-aphelios",
+      "level": 8,
+      "core": [
+        "Varus",
+        "Diana",
+        "Kog'Maw",
+        "Vi",
+        "Aphelios",
+        "Amumu",
+        "Nidalee",
+        "Sentinel"
+      ],
+      "carry": "Aphelios",
+      "items": [
+        "Guinsoo's Rageblade",
+        "Kraken's Fury",
+        "Infinity Edge"
+      ]
+    },
+    {
+      "name": "Coven · Lux",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/coven-lux",
+      "level": 9,
+      "core": [
+        "Camille",
+        "Caitlyn",
+        "Elise",
+        "Cassiopeia",
+        "Diana",
+        "Morgana",
+        "Sentinel",
+        "Lux",
+        "Taric"
+      ],
+      "carry": "Lux",
+      "items": [
+        "Spear of Shojin",
+        "Jeweled Gauntlet",
+        "Blue Buff"
+      ]
+    },
+    {
+      "name": "Coven · Alune",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/coven-alune",
+      "level": 9,
+      "core": [
+        "Camille",
+        "Elise",
+        "Cassiopeia",
+        "Diana",
+        "Morgana",
+        "Sentinel",
+        "Alune",
+        "Lux",
+        "Taric"
+      ],
+      "carry": "Alune",
+      "items": [
+        "Spear of Shojin",
+        "Jeweled Gauntlet",
+        "Archangel's Staff"
+      ]
+    },
+    {
+      "name": "Vanguard · Ezreal",
+      "patch": "18.4",
+      "url": "https://tftcoach.com/comps/vanguard-ezreal",
+      "level": 8,
+      "core": [
+        "Rakan",
+        "Diana",
+        "Hecarim",
+        "Ezreal",
+        "Soraka",
+        "Amumu",
+        "Sentinel",
+        "Taric"
+      ],
+      "carry": "Ezreal",
+      "items": [
+        "Spear of Shojin",
+        "Last Whisper",
+        "Deathblade"
+      ]
+    },
+    {
+      "name": "Inferno · Vi",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/inferno-vi",
+      "level": 9,
+      "core": [
+        "Akali",
+        "Varus",
+        "Shen",
+        "Vi",
+        "Sivir",
+        "Amumu",
+        "Sentinel",
+        "Ashe",
+        "Kennen"
+      ],
+      "carry": "Vi",
+      "items": [
+        "Thief's Gloves",
+        "Hextech Gunblade",
+        "Sterak's Gage"
+      ]
+    },
+    {
+      "name": "Executioner · Sett",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/executioner-sett",
+      "level": 8,
+      "core": [
+        "Yorick",
+        "Yunara",
+        "Azir",
+        "Fiddlesticks",
+        "Ahri",
+        "Ezreal",
+        "Sett",
+        "Soraka"
+      ],
+      "carry": "Sett",
+      "items": [
+        "Thief's Gloves",
+        "Sterak's Gage",
+        "Crownguard"
+      ]
+    },
+    {
+      "name": "Inferno · Xayah",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/inferno-xayah",
+      "level": 8,
+      "core": [
+        "Akali",
+        "Ornn",
+        "Rakan",
+        "Varus",
+        "Xayah",
+        "Shen",
+        "Amumu",
+        "Kennen"
+      ],
+      "carry": "Xayah",
+      "items": [
+        "Guinsoo's Rageblade",
+        "Kraken's Fury",
+        "Infinity Edge"
+      ]
+    },
+    {
+      "name": "Ravager · Rengar",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/ravager-rengar",
+      "level": 7,
+      "core": [
+        "Akali",
+        "Warwick",
+        "Murkwolf",
+        "Diana",
+        "Hecarim",
+        "Rengar",
+        "Brambleback"
+      ],
+      "carry": "Rengar",
+      "items": [
+        "Ravager Emblem",
+        "Guinsoo's Rageblade",
+        "Edge of Night"
+      ]
+    },
+    {
+      "name": "Blackthorn · Yunara",
+      "patch": "18.6",
+      "url": "https://tftcoach.com/comps/blackthorn-yunara",
+      "level": 7,
+      "core": [
+        "Rek'Sai",
+        "Alistar",
+        "Warwick",
+        "Yunara",
+        "Murkwolf",
+        "Azir",
+        "Ezreal"
+      ],
+      "carry": "Yunara",
+      "items": [
+        "Blackthorn Emblem",
+        "Spear of Shojin",
+        "Last Whisper"
+      ]
+    },
+    {
+      "name": "Fae · Rengar",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/fae-rengar",
+      "level": 7,
+      "core": [
+        "Rakan",
+        "Rammus",
+        "Rengar",
+        "Tristana",
+        "Vi",
+        "Lillia",
+        "Sivir"
+      ],
+      "carry": "Rengar",
+      "items": [
+        "Edge of Night",
+        "Guinsoo's Rageblade",
+        "Fae Emblem"
+      ]
+    },
+    {
+      "name": "Coven · Morgana",
+      "patch": "18.6",
+      "url": "https://tftcoach.com/comps/coven-morgana",
+      "level": 8,
+      "core": [
+        "Camille",
+        "Caitlyn",
+        "Elise",
+        "Cassiopeia",
+        "Diana",
+        "Hecarim",
+        "Morgana",
+        "Sentinel"
+      ],
+      "carry": "Morgana",
+      "items": [
+        "Void Staff",
+        "Morellonomicon",
+        "Jeweled Gauntlet"
+      ]
+    },
+    {
+      "name": "Sprykin · Fiddlesticks",
+      "patch": "18.4",
+      "url": "https://tftcoach.com/comps/sprykin-fiddlesticks",
+      "level": 7,
+      "core": [
+        "Veigar",
+        "Teemo",
+        "Azir",
+        "Rammus",
+        "Fiddlesticks",
+        "Soraka",
+        "Zyra"
+      ],
+      "carry": "Fiddlesticks",
+      "items": [
+        "Thief's Gloves",
+        "Kraken's Fury",
+        "Sterak's Gage"
+      ]
+    },
+    {
+      "name": "Adaptor · Master Yi",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/adaptor-master-yi",
+      "level": 7,
+      "core": [
+        "Yorick",
+        "Master Yi",
+        "Kog'Maw",
+        "Krug",
+        "Vi",
+        "Sett",
+        "Nidalee"
+      ],
+      "carry": "Master Yi",
+      "items": [
+        "Edge of Night",
+        "Guinsoo's Rageblade",
+        "Quicksilver"
+      ]
+    },
+    {
+      "name": "Riftbeast · Cinderling",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/riftbeast-cinderling",
+      "level": 8,
+      "core": [
+        "Pebbles",
+        "Cinderling",
+        "Murkwolf",
+        "Scuttlecrab",
+        "Krug",
+        "Brambleback",
+        "Sentinel",
+        "Gnar"
+      ],
+      "carry": "Cinderling",
+      "items": [
+        "Infinity Edge",
+        "Last Whisper",
+        "Blue Buff"
+      ]
+    },
+    {
+      "name": "Elderwood · Mama Beak",
+      "patch": "18.5",
+      "url": "https://tftcoach.com/comps/elderwood-mama-beak",
+      "level": 8,
+      "core": [
+        "Xayah",
+        "Alistar",
+        "Hecarim",
+        "Mama Beak",
+        "Krug",
+        "Zyra",
+        "Sentinel",
+        "Gnar"
+      ],
+      "carry": "Mama Beak",
+      "items": [
+        "Guinsoo's Rageblade",
+        "Kraken's Fury",
+        "Deathblade"
+      ]
+    }
+  ],
+  "coverage": {
+    "indexed": 311,
+    "imported": 129,
+    "currentPatch": 30,
+    "unverified": 99,
+    "unavailable": 183,
+    "note": "逐条读取目录；无法读取或缓存未命中的详情只保留名称索引，不推断内容。未标版本的归档方案不用于当前版本推荐。",
+    "directoryMatched": 128
+  }
+}
