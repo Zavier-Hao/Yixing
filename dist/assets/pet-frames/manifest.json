@@ -1,0 +1,30 @@
+{
+  "cellSize": 256,
+  "columns": 10,
+  "rows": {
+    "idle": {
+      "row": 0,
+      "frames": 8
+    },
+    "run": {
+      "row": 1,
+      "frames": 8
+    },
+    "roll": {
+      "row": 2,
+      "frames": 10
+    },
+    "pet": {
+      "row": 3,
+      "frames": 8
+    },
+    "drag": {
+      "row": 4,
+      "frames": 9
+    },
+    "release": {
+      "row": 5,
+      "frames": 8
+    }
+  }
+}

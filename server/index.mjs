@@ -10,7 +10,7 @@ import {knowledge,retrieve,systemPrompt} from './knowledge.mjs';
 import {readProviderStream} from './stream.mjs';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 try{process.loadEnvFile(path.join(root,'.env'))}catch(e){if(e.code!=='ENOENT')throw e}
-const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.mjs':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json; charset=utf-8','.png':'image/png','.jpg':'image/jpeg','.jpeg':'image/jpeg','.svg':'image/svg+xml','.mp4':'video/mp4','.docx':'application/vnd.openxmlformats-officedocument.wordprocessingml.document'};
+const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.mjs':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json; charset=utf-8','.png':'image/png','.webp':'image/webp','.jpg':'image/jpeg','.jpeg':'image/jpeg','.svg':'image/svg+xml','.mp4':'video/mp4','.docx':'application/vnd.openxmlformats-officedocument.wordprocessingml.document'};
 export function validateMessages(messages){
  if(!Array.isArray(messages)||messages.length<1||messages.length>12)throw new Error('请保留最近 12 条以内的对话');
  const result=messages.map(m=>{if(!m||!['user','assistant'].includes(m.role)||typeof m.content!=='string'||!m.content.trim()||m.content.length>2000)throw new Error('消息格式不正确，每条最多 2000 字');return{role:m.role,content:m.content.trim()}});

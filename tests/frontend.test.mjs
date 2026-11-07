@@ -27,7 +27,7 @@ test('recommendation sends a request, draft remains editable during generation, 
  get('.live-chat-form').events.submit({preventDefault(){}});await flush();assert.equal(requests.length,2);assert.equal(requests[1].messages.at(-1).content,'下一条草稿');assert.equal(get('#live-chat-input').disabled,false);
 });
 test('browser module entry and dependencies use Nginx-compatible .js paths',()=>{
- const html=readFileSync(new URL('../dist/index.html',import.meta.url),'utf8');assert(html.includes('src="chat.js?v=20261107-4"'));const chat=readFileSync(new URL('../dist/chat.js',import.meta.url),'utf8');assert(chat.includes("from './pet.js'"));assert(chat.includes("from './sse.js'"));assert(!html.includes('src="chat.mjs'));
+ const html=readFileSync(new URL('../dist/index.html',import.meta.url),'utf8');assert(html.includes('src="chat.js?v=20261108-1"'));const chat=readFileSync(new URL('../dist/chat.js',import.meta.url),'utf8');assert(chat.includes("from './pet.js?v=20261108-1'"));assert(chat.includes("from './sse.js'"));assert(!html.includes('src="chat.mjs'));
 });
 test('a failed initial connection automatically retries and unlocks chat when the backend recovers',async()=>{
  const nodes=new Map();const get=key=>{if(!nodes.has(key))nodes.set(key,new Element());return nodes.get(key)};const section=get('#demo'),suggestion=new Element();section.querySelector=get;section.querySelectorAll=()=>[suggestion];const document={querySelector:get,createElement:()=>new Element(),createTextNode:text=>({textContent:text})};let attempts=0,retry;

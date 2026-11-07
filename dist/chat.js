@@ -1,4 +1,4 @@
-import {PetCompanion} from './pet.js';
+import {PetCompanion} from './pet.js?v=20261108-1';
 import {decodeChatSSE} from './sse.js';
 const section=document.querySelector('#demo');
 const pet=new PetCompanion(section.querySelector('.pet-playground'));
