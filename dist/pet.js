@@ -50,8 +50,8 @@ export class PetCompanion{
   this.motionQuery.addEventListener('change',e=>{this.reduced=e.matches;if(e.matches&&!this.drag){this.body.y=this.world.floor-this.body.height;this.body.vx=this.body.vy=0;this.body.surface='ground';this.setMode('idle',4000);this.paint()}});
   this.resize();new ResizeObserver(()=>this.resize()).observe(stage);if(this.panel)new ResizeObserver(()=>this.resize()).observe(this.panel);
   // Finish decoding before the entrance, so a slow image download cannot hide the drop.
-  this.assetReady=false;const atlas=new Image();atlas.src=new URL('./assets/pet-frames/atlas.webp',import.meta.url).href;
-  atlas.decode().then(()=>{this.assetReady=true;this.start()}).catch(()=>{this.label.textContent='桌宠素材加载失败，请刷新重试'});
+  this.assetReady=false;this.assetRequested=false;
+  const warmAssets=new IntersectionObserver(entries=>{if(entries.some(entry=>entry.isIntersecting)){this.prepareAssets();warmAssets.disconnect()}},{rootMargin:'0px',threshold:.01});warmAssets.observe(stage);
   new IntersectionObserver(entries=>{this.visible=entries[0].isIntersecting;this.last=0;if(this.visible)this.start();else if(this.frame){cancelAnimationFrame(this.frame);this.frame=null}},{threshold:.15}).observe(stage);
   stage.querySelectorAll('[data-pet-action]').forEach(button=>button.addEventListener('click',()=>this.action(button.dataset.petAction)));
   this.hovered=false;
@@ -62,7 +62,8 @@ export class PetCompanion{
   if(this.panel){this.panel.addEventListener('pointermove',e=>{const r=this.panel.getBoundingClientRect();this.panel.style.setProperty('--glass-x',`${(e.clientX-r.left)/r.width*100}%`);this.panel.style.setProperty('--glass-y',`${(e.clientY-r.top)/r.height*100}%`)});}
   this.paint();
  }
- start(){if(!this.visible||!this.assetReady)return;if(!this.entered)this.enter();if(!this.frame)this.frame=requestAnimationFrame(t=>this.tick(t))}
+ prepareAssets(){if(this.assetRequested)return;this.assetRequested=true;const atlas=new Image();atlas.src=new URL("./assets/pet-frames/atlas-39eeecbe.webp",import.meta.url).href;atlas.decode().then(()=>{this.assetReady=true;if(this.sprite)this.sprite.style.backgroundImage=`url("${atlas.src}")`;this.start()}).catch(()=>{this.label.textContent='桌宠素材加载失败，请刷新重试'})}
+ start(){if(!this.visible)return;if(!this.assetReady){this.prepareAssets();return}if(!this.entered)this.enter();if(!this.frame)this.frame=requestAnimationFrame(t=>this.tick(t))}
  resize(){
   const r=this.stage.getBoundingClientRect(),oldHeight=this.body.height,oldWorld=this.world,oldSurface=this.body.surface;
   this.body.width=r.width<700?112:r.height<820?120:140;this.body.height=this.body.width*1.16;

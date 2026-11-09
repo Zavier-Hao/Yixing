@@ -66,7 +66,7 @@ export function createApp(options={}){
   const dist=path.join(root,'dist'),file=path.resolve(dist,'.'+(decoded==='/'?'/index.html':decoded));
   if(!file.startsWith(dist+path.sep))return json(res,404,{error:'文件不存在'});
   try{
-   const info=await stat(file);if(!info.isFile())throw new Error();const headers={'Content-Type':mime[path.extname(file)]||'application/octet-stream','Content-Length':info.size,'Accept-Ranges':'bytes','Cache-Control':path.extname(file)==='.html'?'no-cache':'public, max-age=300'};
+   const info=await stat(file);if(!info.isFile())throw new Error();const versioned=/\-[a-f0-9]{8}\.(webp|mp4)$/.test(file);const headers={'Content-Type':mime[path.extname(file)]||'application/octet-stream','Content-Length':info.size,'Accept-Ranges':'bytes','Cache-Control':path.extname(file)==='.html'?'no-cache':versioned?'public, max-age=31536000, immutable':'public, max-age=300'};
    if(req.headers.range){const range=/^bytes=(\d*)-(\d*)$/.exec(req.headers.range);if(!range)return res.writeHead(416,{'Content-Range':`bytes */${info.size}`}).end();let start=range[1]?Number(range[1]):Math.max(0,info.size-Number(range[2])),end=range[2]&&range[1]?Math.min(Number(range[2]),info.size-1):info.size-1;if(start>end||start>=info.size)return res.writeHead(416,{'Content-Range':`bytes */${info.size}`}).end();res.writeHead(206,{...headers,'Content-Length':end-start+1,'Content-Range':`bytes ${start}-${end}/${info.size}`});if(req.method==='HEAD')return res.end();createReadStream(file,{start,end}).on('error',()=>res.destroy()).pipe(res);return;}
    res.writeHead(200,headers);if(req.method==='HEAD')return res.end();createReadStream(file).on('error',()=>res.destroy()).pipe(res);
   }catch{return json(res,404,{error:'文件不存在'})}

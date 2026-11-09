@@ -24,6 +24,13 @@ test('chat streams actual provider text with source metadata; private files neve
  })});
 test('provider errors are redacted and limits apply across sessions',async()=>{await withServer({apiKey:'TEST_ONLY',ipLimit:1,fetcher:async()=>new Response('{"secret":"DO_NOT_ECHO"}',{status:401})},async base=>{const headers=await getSession(base),payload={method:'POST',headers,body:JSON.stringify({messages:[{role:'user',content:'你好'}]})};const r=await fetch(base+'/api/chat',payload);assert.equal(r.status,502);assert(!(await r.text()).includes('DO_NOT_ECHO'));assert.equal((await fetch(base+'/api/chat',payload)).status,429)})});
 test('pet gravity, bounce and friction keep it inside its playground',()=>{const pet={x:10,y:0,vx:-500,vy:0,width:100,height:120};for(let i=0;i<800;i++)physicsStep(pet,.016,{width:400,height:300});assert(pet.x>=0&&pet.x<=300);assert(Math.abs(pet.y-180)<.01);assert.equal(pet.vy,0);assert(Math.abs(pet.vx)<1)});
+test('optimized video supports byte-range streaming and versioned caching',async()=>{
+ await withServer({},async base=>{
+  const html=await(await fetch(base+'/')).text();const video=/data-src="(assets\/yixing-pet-[a-f0-9]{8}\.mp4)"/.exec(html);assert(video);
+  const response=await fetch(base+'/'+video[1],{headers:{Range:'bytes=0-31'}});
+  assert.equal(response.status,206);assert.equal(response.headers.get('content-type'),'video/mp4');assert(response.headers.get('cache-control').includes('immutable'));assert.equal((await response.arrayBuffer()).byteLength,32);assert(response.headers.get('content-range').startsWith('bytes 0-31/'));
+ });
+});
 
 test('an abruptly truncated provider stream is not marked complete',async()=>{const body=new ReadableStream({start(c){c.enqueue(encoder.encode('data: {"choices":[{"delta":{"content":"partial"}}]}\n\n'));c.close()}});await assert.rejects(async()=>{for await(const x of readProviderStream(body)){}},/PROVIDER_STREAM_TRUNCATED/)});
 

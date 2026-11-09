@@ -1,0 +1,41 @@
+{
+  "conditions": "Cold cache; 1.6 Mbps down; 80 ms latency; CPU 4x; localhost HTTP; external Riot art requests blocked in both variants.",
+  "results": [
+    {
+      "run": 1,
+      "variant": "before",
+      "heroMs": 46664,
+      "initialBytes": 9291560,
+      "initialMediaRequests": 1,
+      "videoFirstFrameMs": 6524,
+      "videoResolution": "1280x720"
+    },
+    {
+      "run": 1,
+      "variant": "after",
+      "heroMs": 4843,
+      "initialBytes": 229761,
+      "initialMediaRequests": 0,
+      "videoFirstFrameMs": 6316,
+      "videoResolution": "1280x720"
+    },
+    {
+      "run": 2,
+      "variant": "before",
+      "heroMs": 44961,
+      "initialBytes": 8965033,
+      "initialMediaRequests": 1,
+      "videoFirstFrameMs": 6679,
+      "videoResolution": "1280x720"
+    },
+    {
+      "run": 2,
+      "variant": "after",
+      "heroMs": 5600,
+      "initialBytes": 902516,
+      "initialMediaRequests": 0,
+      "videoFirstFrameMs": 2677,
+      "videoResolution": "1280x720"
+    }
+  ]
+}
